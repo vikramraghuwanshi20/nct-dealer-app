@@ -125,6 +125,7 @@
     
     if (ifImageView) {
         viewFullPhoto.hidden = YES;
+        PhotoDetail.hidden=NO;
         ifImageView = NO;
     }else{
     CreateDelegate();
