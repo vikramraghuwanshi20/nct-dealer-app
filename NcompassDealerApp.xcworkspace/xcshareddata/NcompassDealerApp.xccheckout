@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E16E7536-4CBA-4A27-8870-459FDF4B1A25</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NcompassDealerApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>937F79C3471C57B243862B54EF3730F1FC3E2B3A</key>
+		<string>https://bitbucket.org/iosncompasstrac/nct-dealer-app.git</string>
+		<key>94D238EA872FED84B003F8ACB38B6481C4894B00</key>
+		<string>https://bitbucket.org/gigaparsetechnologiesinc/alwayz2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NcompassDealerApp.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>937F79C3471C57B243862B54EF3730F1FC3E2B3A</key>
+		<string>..</string>
+		<key>94D238EA872FED84B003F8ACB38B6481C4894B00</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/iosncompasstrac/nct-dealer-app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>937F79C3471C57B243862B54EF3730F1FC3E2B3A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>94D238EA872FED84B003F8ACB38B6481C4894B00</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>937F79C3471C57B243862B54EF3730F1FC3E2B3A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>nct-dealer-app</string>
+		</dict>
+	</array>
+</dict>
+</plist>

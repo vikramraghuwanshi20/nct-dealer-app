@@ -1,0 +1,2081 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02ABB5C1A85AD51272733027 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F637E6FD5EBEAE99C65F57B /* UIButton+WebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		04EF06A51CC94F25B0B8E8E6 /* CardIOPaymentViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4912D88CFFDBD3DC90D8355D /* CardIOPaymentViewControllerDelegate.h */; };
+		085833DC8FE37665D746FE09 /* GADRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F014A0EFE80BB28C3DAC44F8 /* GADRequest.h */; };
+		09387D2A25451ED120AF9F93 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CFD026E4B81E4E9DE5BC50C /* UIImage+MultiFormat.h */; };
+		0ABDD3A5582B6A805BFF6386 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE007E1D3D4197A5946B5C /* Security.framework */; };
+		0ADEC2A8920B3A93B934592D /* CardIOCreditCardInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 266453198FD61A93220424EA /* CardIOCreditCardInfo.h */; };
+		0BFDE11BB8BEE57FBB75D8DD /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4127C78CC15965842FC209B8 /* SDWebImageDownloader.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0E1604EDEFDAF4B554C6A119 /* GADBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = C2F9A787DAF5034B248A40EB /* GADBannerView.h */; };
+		0E9A373E912978D81D930666 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 50151562E4DB166754D217DD /* UIImageView+AFNetworking.h */; };
+		0EE8E8748B63268415FD3232 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6302D7C6BDB1BDBC7A419603 /* AVFoundation.framework */; };
+		0F605037B47E8BD0B89AEFFF /* GADCustomEventBannerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF4CAC1104497977711F92E /* GADCustomEventBannerDelegate.h */; };
+		0FA1C75A4DB9D91DBA11145C /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = C38AFB9191EAE5084941D195 /* SDWebImageCompat.h */; };
+		10FFCC1E2FBB73EE07D1127A /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E00949411EEDF0ADAEBDE8 /* UIImageView+WebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		11C66DEB4E44F2018638F081 /* GADModules.h in Headers */ = {isa = PBXBuildFile; fileRef = 536B8AA8A8B96A1310EDA55D /* GADModules.h */; };
+		14026EFC51EC29545CD047D7 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A0F7423B563027104D946D /* AFHTTPSessionManager.m */; };
+		14C2AED658B27F25D2CDD321 /* MWFeedInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A8D4EBBF1E376EEB1E3317 /* MWFeedInfo.h */; };
+		16AEF7E4A9C2251C124BF32B /* CardIODetectionMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E612D102AFD912B91E3585A /* CardIODetectionMode.h */; };
+		184D5F60621ED33F3EA13DAD /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 78CF55BD6A6F0386ECE647E9 /* UIProgressView+AFNetworking.h */; };
+		1E4CD70D620379811D1DB6D9 /* GADSwipeableBannerViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D261FB3BFBB45153C2F4311 /* GADSwipeableBannerViewDelegate.h */; };
+		1F0C966F5BA31B90C8BC16E4 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6790141E2C2258269582A9DC /* AFHTTPRequestOperation.h */; };
+		1F1DB19982B2C59514CEC409 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183D82F1B2A1CF4EA56E093F /* UIKit.framework */; };
+		20A19C645B39125FFEBB869F /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D7FD7A4037DFF4AAB4E8B72 /* AFURLResponseSerialization.h */; };
+		24E61DC48990853E0E507B7C /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CA92114C4A3DE05E78FED054 /* UIImageView+AFNetworking.m */; };
+		258376206F22F6DBCD884393 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EE41519E054E72F7B070E9B1 /* UIButton+WebCache.h */; };
+		25AD4165D2C9994CCB655C41 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749D731692C7BBBE910E3524 /* EventKit.framework */; };
+		27BD2C19358ED995B4626C8C /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = A2ED86459D1D1ABD92D50A6F /* AFURLRequestSerialization.h */; };
+		293F8A553747545FA85B2CAA /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BEA7DA02A9760AF53129D2 /* UIViewController+MMDrawerController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2A950442C5B5B648F7276AB2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DE0518CF8B5A68D77C598 /* QuartzCore.framework */; };
+		2AB733182747605A97354CE6 /* CardIOPaymentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FCE701AD9DB6AA25EA7282A /* CardIOPaymentViewController.h */; };
+		2B7265C469C480AD91E17C5D /* DFPBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7705246DE3DC3F16B6C9521B /* DFPBannerView.h */; };
+		2BB3EA2C60944E1A9BB9A372 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 216F6EC44DFCF56B25B12840 /* AFURLConnectionOperation.m */; };
+		30279B4720DE7F839A44DCCC /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAF2F1FFD589923238E3928 /* AFSecurityPolicy.h */; };
+		305D1A6B5441967A22D91090 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = EB64F8F09C1DE1689D3FC4CB /* UIAlertView+AFNetworking.h */; };
+		322731CDCFDB97A8ECAF4143 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4E11DD46C89625A6CD2AE7 /* OpenGLES.framework */; };
+		32318994CB3592DA249A266B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DE0518CF8B5A68D77C598 /* QuartzCore.framework */; };
+		32DB44F70984223CC16B1E88 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C749149FACAC0B8A089C10D1 /* UIKit+AFNetworking.h */; };
+		3311794DF2B690EEC26F4056 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF5A9D31ACC81DD40CEF121 /* UIImage+MultiFormat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		33F57050A41B5E8E911EA8BD /* GADInAppPurchase.h in Headers */ = {isa = PBXBuildFile; fileRef = 03DF2B5291C63146B14B0159 /* GADInAppPurchase.h */; };
+		34B5DD0078AE60FEA24D5F57 /* GADSearchBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 357C93F3475742693CB20E7F /* GADSearchBannerView.h */; };
+		377DC2ECBE6BDB7BD0EEE8A4 /* MWFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9559219992746011D36DAB28 /* MWFeedItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		38360229D94EA360D04BB21E /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76702887175B756405121811 /* AFNetworkActivityIndicatorManager.m */; };
+		3845AB2849EB0A4FAF00D316 /* CardIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F97497AED5641CF0D996A03 /* CardIO.h */; };
+		3EDA84B83B0A16A27A45218D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CC5FE123633ADCD1644D89 /* SystemConfiguration.framework */; };
+		3F76B97F4803BF0A1B38328F /* NSDate+InternetDateTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 226EC29AAF6739A30B20DC3F /* NSDate+InternetDateTime.h */; };
+		412D8563143BC8E989D578E6 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E84A88D3105FCA9C53913C /* UIImageView+HighlightedWebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		41708996874D83333F00AF39 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5296F4D7114013E3289B588 /* AFHTTPRequestOperation.m */; };
+		45D25F26656E5AF76816456B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275AF73B597B4F41C549E9E4 /* Foundation.framework */; };
+		47BEE9EC6E678B9C826C278C /* MWFeedParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BCEB3E7F9291BFE0446291C8 /* MWFeedParser.h */; };
+		48262CE7FB48FE3117C1EBD2 /* CardIOViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C9AF0E84EBE938F39C44F06 /* CardIOViewDelegate.h */; };
+		4A133505FA7750FE1844467D /* MWFeedItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A2E3182035B2237F28B029D5 /* MWFeedItem.h */; };
+		4AC80BE9151638768EAE2B02 /* Pods-KeenanHonda-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4333A0D8E654ED0684CB508D /* Pods-KeenanHonda-dummy.m */; };
+		4AD700B35EF7400099F72993 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E23BF727DAE61387B17701 /* SDWebImageCompat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4FBC0EA1D6FACC6885203A4F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE007E1D3D4197A5946B5C /* Security.framework */; };
+		510454D7635979A9C0A12FBB /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 647D132BF767145EE8418057 /* UIAlertView+AFNetworking.m */; };
+		51D01056639F018567369C45 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5279324A743958B4FA1B2A /* UIButton+AFNetworking.h */; };
+		533AAC5D34B6C89AF7BBA3A8 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5C77B836DFF07411EE31C1 /* UIActivityIndicatorView+AFNetworking.m */; };
+		5343A73B2F74E6B03D1B0728 /* GADCustomEventRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 712D31CD4A5850541A75A5C7 /* GADCustomEventRequest.h */; };
+		55799690F63EE09CB7F8E0BA /* GADAppEventDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BC97F33413094773E670CDC1 /* GADAppEventDelegate.h */; };
+		55F147837E6630C35D297FF4 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DA66891D0DC48A35766ABD6D /* UIButton+AFNetworking.m */; };
+		5A0BAF33EF8DFB5403487854 /* GADInAppPurchaseDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 49FD61CB9E2ACE0F59E3130B /* GADInAppPurchaseDelegate.h */; };
+		5A21B1B4F4CB121A51983879 /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C9FD2E1143410AC15B446836 /* SDWebImagePrefetcher.h */; };
+		5BD969A856C210B32183302F /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C826107D9D3E058B683B6539 /* UIView+WebCacheOperation.h */; };
+		5FD69D0D42FBFF106B259F55 /* UIViewController+MMDrawerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E43C51BF5EAB866CF2A9EB /* UIViewController+MMDrawerController.h */; };
+		604BCB31C05BD21405F81DF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275AF73B597B4F41C549E9E4 /* Foundation.framework */; };
+		62A5175FC80691A6D03BB290 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C29226C72A07522C71514688 /* AFNetworkReachabilityManager.h */; };
+		64CB15A6C2906C7AF704718D /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC2342DA0A60B3DC69852FC /* NSData+ImageContentType.h */; };
+		68D6F6280DC08D643EB7DB15 /* Pods-KeenanHonda-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A3980F80B86B12368FE964 /* Pods-KeenanHonda-AFNetworking-dummy.m */; };
+		6E13506253E0222900D92560 /* MMDrawerController+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CAFAFC705E0D7F7B13B8EB /* MMDrawerController+Subclass.h */; };
+		6F35E96CE01B29975074C7B4 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F4ACB68ADC8683F0A728CB03 /* AFNetworking.h */; };
+		6FA24570D745BA700746378B /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 269D67C1BF1F7DCF745D7D5F /* GTMNSString+HTML.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		70D6DB8311977547B700DA30 /* Pods-KeenanHonda-MMDrawerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E40C098EC74C54DC544D2DDD /* Pods-KeenanHonda-MMDrawerController-dummy.m */; };
+		773D699AC9BBED6A9E980D9F /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D8CD13DBDD545B28B0B6D /* UIView+WebCacheOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		796524C9AB3D4B1983444514 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD31DE8ABA364E81DF3ECDF /* NSString+HTML.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7A8B6457862F1E3C861F7742 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275AF73B597B4F41C549E9E4 /* Foundation.framework */; };
+		7E1BC89F0897E3E3F69C2E20 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF551EB81CCCAAA3392B4D4 /* MMDrawerBarButtonItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7F2CF2446AC39581355503F4 /* MMDrawerController+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = BD996FD0E5AC26F4A5C377AD /* MMDrawerController+Storyboard.m */; };
+		7FABEC003578449E3DC3FF13 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FD710AC19EBB44D36C3541 /* MobileCoreServices.framework */; };
+		7FE3F22647505EFD240A6B85 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EAD108A0934D825943022A0 /* AFHTTPRequestOperationManager.h */; };
+		80817C7B2DFEFCA0DAD8E221 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9D1ECAABA63E317A90DC08 /* MMDrawerVisualState.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		81994FE27C2B1A429A68BD3D /* GADCustomEventBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B68FC6C4A026C68A6C027DF /* GADCustomEventBanner.h */; };
+		81B17DF25296F935D02D2F7C /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0617D17F6E3C0C6578B3D07D /* SDWebImageDownloaderOperation.h */; };
+		86424D62865F0534DAF9F67F /* GADCustomEventInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4699D8C57B0C18ADCD4213 /* GADCustomEventInterstitial.h */; };
+		8CCE53039C9348502B61A654 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = F5AB3942A5599E7B060CB736 /* SDWebImageOperation.h */; };
+		8D0899C836D48EEA9E249DB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275AF73B597B4F41C549E9E4 /* Foundation.framework */; };
+		8D25E067718603A35DA12956 /* DFPSwipeableBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 60F35C70780B8FD9F94369EF /* DFPSwipeableBannerView.h */; };
+		8E216F5585DA520448236C15 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C958639F0012F957D47EB4E6 /* AFURLSessionManager.h */; };
+		8EAFD46BBECB6D40CFC09010 /* MMDrawerController+Storyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 212345957E8C29455A7F8735 /* MMDrawerController+Storyboard.h */; };
+		8EC3A1AD9D89518CB5093441 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D81C98A4A5B580436DF7C53 /* AFSecurityPolicy.m */; };
+		8F0CC3BD33BE4CAF07E207BE /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 521BB194D62A1112E12B2002 /* UIWebView+AFNetworking.m */; };
+		90BED87D297A493E61CBFB9D /* GADAdSizeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 014B11918561B37E89260EEF /* GADAdSizeDelegate.h */; };
+		9242B8A59D24B664E0DC13D9 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A665C3DF36D52444178B4F /* AFURLRequestSerialization.m */; };
+		931099D46071652A34719A9A /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B79D8B47EF5AAAF79DD15FC /* UIRefreshControl+AFNetworking.h */; };
+		947E87803939F11F28E89124 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FE9DD6272A1CC7E6C37CD0 /* AudioToolbox.framework */; };
+		958DD3F462C863AE2D7BA08E /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6472D8A80A6EF581DFF5CD /* SDWebImageManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9695947EF033131BF511337E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485819B688FEB1D30214F427 /* ImageIO.framework */; };
+		96BFF31F468D27DE49BF905C /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F87389205DA2AF039AD4E94 /* UIProgressView+AFNetworking.m */; };
+		99929328A032E4DCFFA0F493 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E59EA2491CB2C063C7CF81FA /* CoreTelephony.framework */; };
+		9BBB6877DA00E7B9E92CB49A /* GADInterstitialDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B76697C6F623632E5C603D7B /* GADInterstitialDelegate.h */; };
+		9DD3B14C279AA10D7B6FE7B9 /* MWFeedParser_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A248FC723A0523981207E6 /* MWFeedParser_Private.h */; };
+		9F8AD370AE92C797DA9B0A8A /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 885706ACBB0F15761DC0F201 /* UIImage+GIF.h */; };
+		A0C1207724598CCC4DCE7AA9 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A5143E3ADB6CD073DCDB23 /* SDWebImageDecoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A2386708B8561AAA4F699784 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AF48152FC65D4E0C8692CD /* NSData+ImageContentType.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A250FE2DAC8429B7171F0931 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DD6A1A93110693AE721B67E /* AFURLConnectionOperation.h */; };
+		A4277FDCEF3EE5E6435B16B2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CC5FE123633ADCD1644D89 /* SystemConfiguration.framework */; };
+		AA07586E9F47198C25602244 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0FE8E479C39545FB7D1907 /* AFURLResponseSerialization.m */; };
+		AAF6A6A0A8DDD0893C828599 /* Pods-KeenanHonda-SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F633D273F25C85C40EEF666B /* Pods-KeenanHonda-SDWebImage-dummy.m */; };
+		AC4A3738713CE7EDB6DCF56B /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC81DA95F4ED46E6DBDA3983 /* AFNetworkReachabilityManager.m */; };
+		AD2F4B870451A587B14870FB /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 09CEEC6496AB3DCD64C28E48 /* UIImageView+WebCache.h */; };
+		AE544E77DE820BCC17527C8F /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4DC6AAD42C1D8ADED87870 /* SDWebImagePrefetcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AEC0BD683DBCCB256CAAFCA0 /* MMDrawerVisualState.h in Headers */ = {isa = PBXBuildFile; fileRef = 56A450030446037ED46E61DC /* MMDrawerVisualState.h */; };
+		B2D12D87184B4E2E33298ABB /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A32040464C210F328BA5F /* UIImage+GIF.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B994A1DF086BD60774B88C5B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FD710AC19EBB44D36C3541 /* MobileCoreServices.framework */; };
+		BA68A2F8208231A50345AEC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275AF73B597B4F41C549E9E4 /* Foundation.framework */; };
+		BFA0B2E21D51B459E2E3B91C /* DFPInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4A186C58BECAB5C82AFC81 /* DFPInterstitial.h */; };
+		BFF7D4A8894BD7137562DF17 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B641A177D4C4A9191F1F79E /* SDWebImageDownloader.h */; };
+		C04B46568742161CEE2F1B2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275AF73B597B4F41C549E9E4 /* Foundation.framework */; };
+		C1D4E4B7BE3DD3684C90F142 /* GADCustomEventInterstitialDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F0B3F401DC8E4DFD0B2C89A0 /* GADCustomEventInterstitialDelegate.h */; };
+		C2A64105EF4EC8FA9431DB53 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6302D7C6BDB1BDBC7A419603 /* AVFoundation.framework */; };
+		C34858B9DE74F901011864FB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4911F1A62222DF9C964F90DA /* CoreMedia.framework */; };
+		C3D65F844ACF428A5B8867E2 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 32230E64D9C94182F109167A /* UIRefreshControl+AFNetworking.m */; };
+		C53611655FA88CCD0A129E80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275AF73B597B4F41C549E9E4 /* Foundation.framework */; };
+		C5B00F4F5AF7751A2E21AE8A /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D0319C650ABC6479E53AC08E /* UIActivityIndicatorView+AFNetworking.h */; };
+		C8482CADFC2D442106D34BCD /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F26B0A5F7D1B1169A9949A /* CoreVideo.framework */; };
+		C8B070C427A099ED5374AED8 /* GADInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1D4A54EE7CD894428BD5EB /* GADInterstitial.h */; };
+		C8D13BE8253564A2E67705D2 /* Pods-KeenanHonda-MWFeedParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5255D00A2F08BC94CB1DE5 /* Pods-KeenanHonda-MWFeedParser-dummy.m */; };
+		C97B86C03A42F2285F977B11 /* CardIOUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A40DFC265066FA703E073ECA /* CardIOUtilities.h */; };
+		C985F79D5718D2224F1F82E4 /* MMDrawerBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 17573225762C76ED079E8148 /* MMDrawerBarButtonItem.h */; };
+		CB52A26D5B105AB3D7484302 /* GADRequestError.h in Headers */ = {isa = PBXBuildFile; fileRef = CD6B41BDEFB23BD3094C7950 /* GADRequestError.h */; };
+		CE7DFB812A4B0B54BECF9981 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B769782429A94F8449ED5BC1 /* UIWebView+AFNetworking.h */; };
+		CEB39D73BCB32C2905553E0D /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4878B4FDD3FD6BF50F98E3B9 /* AFHTTPSessionManager.h */; };
+		CF5C81CEED9F43B790BC4731 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A08D0E607DB9D0F7B8B614 /* SDImageCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D0EBA5283528FA577FAD45F2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FE9DD6272A1CC7E6C37CD0 /* AudioToolbox.framework */; };
+		D269596CE1541BE30C68FC44 /* CardIOView.h in Headers */ = {isa = PBXBuildFile; fileRef = 60F45BA997662C502D975133 /* CardIOView.h */; };
+		D498CBA8D9080C011FB49075 /* NSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = F4721D6EF9F48C82668A4F61 /* NSString+HTML.h */; };
+		D5F87242D2E519172CCE9B15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E820C16FF60EA9FE3989DA4 /* CoreGraphics.framework */; };
+		D77392E47C3F08C7BB3C9443 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB241E4A6A8B1822F48EA2C /* SDImageCache.h */; };
+		D7AA4A852FC3833D21984096 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B93EB019A919BAD671759407 /* SDWebImageManager.h */; };
+		D8CA78AA42C18A1F4ED0E90D /* GTMNSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 71659B263AE4EF6ACFEB6984 /* GTMNSString+HTML.h */; };
+		D9D56C3AA7EB567CEACCB6B0 /* GADSearchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C6E7A6FFB8257824A8C3E348 /* GADSearchRequest.h */; };
+		DEE7F94E5307DA1715D5A424 /* MWFeedInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A11850F1429848C55FC81C /* MWFeedInfo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DEFDCFB60F797BF227C264A6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05147ECD9B856CFA6BED1746 /* StoreKit.framework */; };
+		DF21921F5A7F8F7831C1081F /* GADAdNetworkExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 74965AFDE7C7E1FF08DAF7E2 /* GADAdNetworkExtras.h */; };
+		DF891D3E786ADB16319482D9 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6219AB007E316563F461FF /* SDWebImageDownloaderOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E48B4528C3FD0289D3585A74 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FABC7485EFAD7BE35918F8E6 /* UIImageView+HighlightedWebCache.h */; };
+		E6EF64779110630F08BB1BDB /* Pods-KeenanHonda-CardIO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 811CC09CAFB78568069A8301 /* Pods-KeenanHonda-CardIO-dummy.m */; };
+		E735AE095DAF5015CCF95523 /* GADAdMobExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FEAF86AA14A67B92B431DE3 /* GADAdMobExtras.h */; };
+		EA2B2F4F94F969317EAFF521 /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6ABCC7BB809D6091B37A45 /* NSDate+InternetDateTime.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EBEE8F87EA3304C68A667ED7 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC93579124588AA0904FD5A /* AFNetworkActivityIndicatorManager.h */; };
+		ED7082F7CCC1AF1FD0357AA8 /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = D770AF81A65E2CD7FABDB7C0 /* SDWebImageDecoder.h */; };
+		F11563008B4B3DECC47B2BE8 /* MMDrawerController+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CAFAFC705E0D7F7B13B8EB /* MMDrawerController+Subclass.h */; };
+		F21E5AD757AA265A9B782987 /* GADAdSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 152B42C51F02A39D3C94538B /* GADAdSize.h */; };
+		F4B329E615BF0EA928CA2E68 /* DFPExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = A288D164B16D718FD4CCB3DF /* DFPExtras.h */; };
+		F4DC6EF4DD3903724F9C1645 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5C2D67B2DA0D6DF650EBFF /* MMDrawerController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F71F7078D122D0047C160086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275AF73B597B4F41C549E9E4 /* Foundation.framework */; };
+		F8C05CD10FE07FC8322C1809 /* Pods-KeenanHonda-MMDrawerController-Storyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F70EEC759EFAD36361BCC3 /* Pods-KeenanHonda-MMDrawerController-Storyboard-dummy.m */; };
+		FA32722188E7CBC51DD2A643 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 816FFD8FFE36BDF33ABB0832 /* AFURLSessionManager.m */; };
+		FB3B643B0AFDEC604F5951DD /* GADCustomEventExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B3FC897F2C7F92A2D2FA386 /* GADCustomEventExtras.h */; };
+		FC193E90B5CE8A48296C5D3C /* GADBannerViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8701FBF48C488A90ECC0ED2E /* GADBannerViewDelegate.h */; };
+		FC317E23F7AC7512C2CCEA3C /* MMDrawerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EC33A22F013AD997819E202 /* MMDrawerController.h */; };
+		FC5802B509F7010E5AE2A831 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD80C7FA625E6AC9E586514 /* AFHTTPRequestOperationManager.m */; };
+		FDE5C117B4A3A9B682CEAAA0 /* Pods-KeenanHonda-Google-Mobile-Ads-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E83967537FBB88B9C514CDBE /* Pods-KeenanHonda-Google-Mobile-Ads-SDK-dummy.m */; };
+		FE75DD797F5BA34AB2D7A2D0 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F04E17A5BDE383A7260391C /* EventKitUI.framework */; };
+		FEA53A40C95D55182A463730 /* MWFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B40E872715A0C7397ABA96 /* MWFeedParser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FF932DAAF80D77E69B883F5F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E820C16FF60EA9FE3989DA4 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A5112D9090D96B49A7BCA8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD2724665F9814BBFB5F35DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B2CE1F753F12B29EEF1C6E9;
+			remoteInfo = "Pods-KeenanHonda-MMDrawerController-Storyboard";
+		};
+		2252EBA9A96A8D8DBEDE7054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD2724665F9814BBFB5F35DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 673B04AA3FD2C0033D374FDC;
+			remoteInfo = "Pods-KeenanHonda-SDWebImage";
+		};
+		2645ECA702A4DF40CD6682AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD2724665F9814BBFB5F35DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 140D90C7E27BFF489D8CE493;
+			remoteInfo = "Pods-KeenanHonda-MWFeedParser";
+		};
+		379BAC28B098C78774DF2093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD2724665F9814BBFB5F35DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 998C18669900FC5134D35397;
+			remoteInfo = "Pods-KeenanHonda-CardIO";
+		};
+		6E601DEA4BE069D3A4634A52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD2724665F9814BBFB5F35DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1044A0853187F70A561ADC5;
+			remoteInfo = "Pods-KeenanHonda-AFNetworking";
+		};
+		8A026CB769EAB87A9DB56D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD2724665F9814BBFB5F35DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33EC1E2E8C22A567DC20FD53;
+			remoteInfo = "Pods-KeenanHonda-MMDrawerController";
+		};
+		B7A429D7CF477A6A34C7FD0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD2724665F9814BBFB5F35DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33EC1E2E8C22A567DC20FD53;
+			remoteInfo = "Pods-KeenanHonda-MMDrawerController";
+		};
+		CC799C160C1DDD87FF84D27D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD2724665F9814BBFB5F35DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5F668657D31B889FA1EA12D;
+			remoteInfo = "Pods-KeenanHonda-Google-Mobile-Ads-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014B11918561B37E89260EEF /* GADAdSizeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADAdSizeDelegate.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/DoubleClick/GADAdSizeDelegate.h"; sourceTree = "<group>"; };
+		035BAB62C482CFCA1EDD801B /* Pods-KeenanHonda-MMDrawerController-Storyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeenanHonda-MMDrawerController-Storyboard-prefix.pch"; sourceTree = "<group>"; };
+		03DF2B5291C63146B14B0159 /* GADInAppPurchase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADInAppPurchase.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADInAppPurchase.h"; sourceTree = "<group>"; };
+		05147ECD9B856CFA6BED1746 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		05F26B0A5F7D1B1169A9949A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
+		0617D17F6E3C0C6578B3D07D /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		09CEEC6496AB3DCD64C28E48 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		0B641A177D4C4A9191F1F79E /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		0D261FB3BFBB45153C2F4311 /* GADSwipeableBannerViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADSwipeableBannerViewDelegate.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/DoubleClick/GADSwipeableBannerViewDelegate.h"; sourceTree = "<group>"; };
+		0E6219AB007E316563F461FF /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		0E86949A241FC2810B4574B2 /* Pods-KeenanHonda-MMDrawerController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenanHonda-MMDrawerController-Private.xcconfig"; sourceTree = "<group>"; };
+		0EAD108A0934D825943022A0 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		0EFEAB255C1F94EA692918BF /* Pods-KeenanHonda-SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeenanHonda-SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		1398523ADA7638AA506F568D /* Pods-KeenanHonda-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenanHonda-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		13FD710AC19EBB44D36C3541 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		152B42C51F02A39D3C94538B /* GADAdSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADAdSize.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADAdSize.h"; sourceTree = "<group>"; };
+		1541AE54C5C99DC5853A40CF /* Pods-KeenanHonda-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeenanHonda-resources.sh"; sourceTree = "<group>"; };
+		1718B8C3DF17A013A72A6015 /* Pods-KeenanHonda-SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenanHonda-SDWebImage.xcconfig"; sourceTree = "<group>"; };
+		17573225762C76ED079E8148 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMDrawerBarButtonItem.h; path = MMDrawerController/MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		17A5143E3ADB6CD073DCDB23 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
+		183D82F1B2A1CF4EA56E093F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1F4699D8C57B0C18ADCD4213 /* GADCustomEventInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCustomEventInterstitial.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/Mediation/GADCustomEventInterstitial.h"; sourceTree = "<group>"; };
+		1FF4CAC1104497977711F92E /* GADCustomEventBannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCustomEventBannerDelegate.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/Mediation/GADCustomEventBannerDelegate.h"; sourceTree = "<group>"; };
+		212345957E8C29455A7F8735 /* MMDrawerController+Storyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Storyboard.h"; sourceTree = "<group>"; };
+		216F6EC44DFCF56B25B12840 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		226EC29AAF6739A30B20DC3F /* NSDate+InternetDateTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+InternetDateTime.h"; path = "Classes/NSDate+InternetDateTime.h"; sourceTree = "<group>"; };
+		24BEA7DA02A9760AF53129D2 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MMDrawerController.m"; path = "MMDrawerController/UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		25CC5FE123633ADCD1644D89 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		266453198FD61A93220424EA /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOCreditCardInfo.h; path = CardIO/CardIOCreditCardInfo.h; sourceTree = "<group>"; };
+		269D67C1BF1F7DCF745D7D5F /* GTMNSString+HTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+HTML.m"; path = "Classes/GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		275AF73B597B4F41C549E9E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2A0FE8E479C39545FB7D1907 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		2A4A186C58BECAB5C82AFC81 /* DFPInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFPInterstitial.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/DoubleClick/DFPInterstitial.h"; sourceTree = "<group>"; };
+		2B3FC897F2C7F92A2D2FA386 /* GADCustomEventExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCustomEventExtras.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/Mediation/GADCustomEventExtras.h"; sourceTree = "<group>"; };
+		2B4DC6AAD42C1D8ADED87870 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		2DD9075036EF105C1D6014DE /* Pods-KeenanHonda-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenanHonda-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		2E9D1ECAABA63E317A90DC08 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMDrawerVisualState.m; path = MMDrawerController/MMDrawerVisualState.m; sourceTree = "<group>"; };
+		30E23BF727DAE61387B17701 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		318F165BEE6AF3574119F9DF /* Pods-KeenanHonda-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeenanHonda-acknowledgements.markdown"; sourceTree = "<group>"; };
+		32230E64D9C94182F109167A /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		357C93F3475742693CB20E7F /* GADSearchBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADSearchBannerView.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/Search/GADSearchBannerView.h"; sourceTree = "<group>"; };
+		3582C4B625D993CD47580789 /* Pods-KeenanHonda-CardIO.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenanHonda-CardIO.xcconfig"; sourceTree = "<group>"; };
+		36FE9DD6272A1CC7E6C37CD0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		38E43C51BF5EAB866CF2A9EB /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MMDrawerController.h"; path = "MMDrawerController/UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		390358F05C0418B197955AE7 /* Pods-KeenanHonda-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeenanHonda-environment.h"; sourceTree = "<group>"; };
+		3A9A06C9ADF5F77E996D64CA /* Pods-KeenanHonda-Google-Mobile-Ads-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeenanHonda-Google-Mobile-Ads-SDK-prefix.pch"; sourceTree = "<group>"; };
+		3B2FA00AD079FC0F21EB3D45 /* libPods-KeenanHonda-MWFeedParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KeenanHonda-MWFeedParser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B79D8B47EF5AAAF79DD15FC /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		3BF551EB81CCCAAA3392B4D4 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMDrawerBarButtonItem.m; path = MMDrawerController/MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		3E7D8CD13DBDD545B28B0B6D /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		3F97497AED5641CF0D996A03 /* CardIO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIO.h; path = CardIO/CardIO.h; sourceTree = "<group>"; };
+		4127C78CC15965842FC209B8 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		4333A0D8E654ED0684CB508D /* Pods-KeenanHonda-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeenanHonda-dummy.m"; sourceTree = "<group>"; };
+		485819B688FEB1D30214F427 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		4878B4FDD3FD6BF50F98E3B9 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		48A3980F80B86B12368FE964 /* Pods-KeenanHonda-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeenanHonda-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		48B42C2B581B52843F230D3C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4911F1A62222DF9C964F90DA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		4912D88CFFDBD3DC90D8355D /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOPaymentViewControllerDelegate.h; path = CardIO/CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
+		49FD61CB9E2ACE0F59E3130B /* GADInAppPurchaseDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADInAppPurchaseDelegate.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADInAppPurchaseDelegate.h"; sourceTree = "<group>"; };
+		4AB241E4A6A8B1822F48EA2C /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		4C3A32040464C210F328BA5F /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		4D5279324A743958B4FA1B2A /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		4D81C98A4A5B580436DF7C53 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		4E820C16FF60EA9FE3989DA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		50151562E4DB166754D217DD /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		521BB194D62A1112E12B2002 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		53452AE3C552A9D4291C6388 /* Pods-KeenanHonda-MMDrawerController-Storyboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenanHonda-MMDrawerController-Storyboard.xcconfig"; sourceTree = "<group>"; };
+		536B8AA8A8B96A1310EDA55D /* GADModules.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADModules.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADModules.h"; sourceTree = "<group>"; };
+		56A450030446037ED46E61DC /* MMDrawerVisualState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMDrawerVisualState.h; path = MMDrawerController/MMDrawerVisualState.h; sourceTree = "<group>"; };
+		5B68FC6C4A026C68A6C027DF /* GADCustomEventBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCustomEventBanner.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/Mediation/GADCustomEventBanner.h"; sourceTree = "<group>"; };
+		5CFD026E4B81E4E9DE5BC50C /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		5F04E17A5BDE383A7260391C /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/EventKitUI.framework; sourceTree = DEVELOPER_DIR; };
+		5F2DAA27DF909D234A2A6E54 /* Pods-KeenanHonda-MMDrawerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenanHonda-MMDrawerController.xcconfig"; sourceTree = "<group>"; };
+		5F87389205DA2AF039AD4E94 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		5FCE701AD9DB6AA25EA7282A /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOPaymentViewController.h; path = CardIO/CardIOPaymentViewController.h; sourceTree = "<group>"; };
+		60E696B50C9A2F24DCB2FD32 /* Pods-KeenanHonda-CardIO-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenanHonda-CardIO-Private.xcconfig"; sourceTree = "<group>"; };
+		60F35C70780B8FD9F94369EF /* DFPSwipeableBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFPSwipeableBannerView.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/DoubleClick/DFPSwipeableBannerView.h"; sourceTree = "<group>"; };
+		60F45BA997662C502D975133 /* CardIOView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOView.h; path = CardIO/CardIOView.h; sourceTree = "<group>"; };
+		62AE007E1D3D4197A5946B5C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		62FB37E3B5622A120FE22D0C /* Pods-KeenanHonda-MWFeedParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeenanHonda-MWFeedParser-prefix.pch"; sourceTree = "<group>"; };
+		6302D7C6BDB1BDBC7A419603 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		647D132BF767145EE8418057 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		64A8D4EBBF1E376EEB1E3317 /* MWFeedInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWFeedInfo.h; path = Classes/MWFeedInfo.h; sourceTree = "<group>"; };
+		6790141E2C2258269582A9DC /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		6DD31DE8ABA364E81DF3ECDF /* NSString+HTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HTML.m"; path = "Classes/NSString+HTML.m"; sourceTree = "<group>"; };
+		6FAF2F1FFD589923238E3928 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		712D31CD4A5850541A75A5C7 /* GADCustomEventRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCustomEventRequest.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/Mediation/GADCustomEventRequest.h"; sourceTree = "<group>"; };
+		71659B263AE4EF6ACFEB6984 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+HTML.h"; path = "Classes/GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		7423739E3202268D1EC248A0 /* Pods-KeenanHonda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenanHonda.release.xcconfig"; sourceTree = "<group>"; };
+		74965AFDE7C7E1FF08DAF7E2 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADAdNetworkExtras.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADAdNetworkExtras.h"; sourceTree = "<group>"; };
+		749D731692C7BBBE910E3524 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/EventKit.framework; sourceTree = DEVELOPER_DIR; };
+		74B40E872715A0C7397ABA96 /* MWFeedParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MWFeedParser.m; path = Classes/MWFeedParser.m; sourceTree = "<group>"; };
+		74CAFAFC705E0D7F7B13B8EB /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MMDrawerController+Subclass.h"; path = "MMDrawerController/MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		76702887175B756405121811 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		7705246DE3DC3F16B6C9521B /* DFPBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFPBannerView.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/DoubleClick/DFPBannerView.h"; sourceTree = "<group>"; };
+		78CF55BD6A6F0386ECE647E9 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		7C9AF0E84EBE938F39C44F06 /* CardIOViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOViewDelegate.h; path = CardIO/CardIOViewDelegate.h; sourceTree = "<group>"; };
+		7D72AE6B1E0BDB90E83AF584 /* Pods-KeenanHonda-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeenanHonda-acknowledgements.plist"; sourceTree = "<group>"; };
+		7DD6A1A93110693AE721B67E /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		811CC09CAFB78568069A8301 /* Pods-KeenanHonda-CardIO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeenanHonda-CardIO-dummy.m"; sourceTree = "<group>"; };
+		816FFD8FFE36BDF33ABB0832 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		829CF7048178654562C4F66B /* Pods-KeenanHonda-MMDrawerController-Storyboard-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenanHonda-MMDrawerController-Storyboard-Private.xcconfig"; sourceTree = "<group>"; };
+		82ADE1C68C22204CCECA38D1 /* libPods-KeenanHonda-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KeenanHonda-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A08D0E607DB9D0F7B8B614 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		8701FBF48C488A90ECC0ED2E /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADBannerViewDelegate.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADBannerViewDelegate.h"; sourceTree = "<group>"; };
+		87E00949411EEDF0ADAEBDE8 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		885706ACBB0F15761DC0F201 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
+		8AC2342DA0A60B3DC69852FC /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		8DC93579124588AA0904FD5A /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		8E612D102AFD912B91E3585A /* CardIODetectionMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIODetectionMode.h; path = CardIO/CardIODetectionMode.h; sourceTree = "<group>"; };
+		8E6472D8A80A6EF581DFF5CD /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		913A04DAE722650E854F2BB0 /* Pods-KeenanHonda-Google-Mobile-Ads-SDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenanHonda-Google-Mobile-Ads-SDK-Private.xcconfig"; sourceTree = "<group>"; };
+		91E84A88D3105FCA9C53913C /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		9559219992746011D36DAB28 /* MWFeedItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MWFeedItem.m; path = Classes/MWFeedItem.m; sourceTree = "<group>"; };
+		98A665C3DF36D52444178B4F /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		9D7FD7A4037DFF4AAB4E8B72 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		9EC33A22F013AD997819E202 /* MMDrawerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMDrawerController.h; path = MMDrawerController/MMDrawerController.h; sourceTree = "<group>"; };
+		9F637E6FD5EBEAE99C65F57B /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		9FEAF86AA14A67B92B431DE3 /* GADAdMobExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADAdMobExtras.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADAdMobExtras.h"; sourceTree = "<group>"; };
+		A288D164B16D718FD4CCB3DF /* DFPExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFPExtras.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/DoubleClick/DFPExtras.h"; sourceTree = "<group>"; };
+		A2E3182035B2237F28B029D5 /* MWFeedItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWFeedItem.h; path = Classes/MWFeedItem.h; sourceTree = "<group>"; };
+		A2ED86459D1D1ABD92D50A6F /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		A40DFC265066FA703E073ECA /* CardIOUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOUtilities.h; path = CardIO/CardIOUtilities.h; sourceTree = "<group>"; };
+		A7F8299958B2A413149E02AE /* Pods-KeenanHonda-CardIO-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeenanHonda-CardIO-prefix.pch"; sourceTree = "<group>"; };
+		ACE581109064A8C53206B27E /* Pods-KeenanHonda-MWFeedParser-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenanHonda-MWFeedParser-Private.xcconfig"; sourceTree = "<group>"; };
+		AE5255D00A2F08BC94CB1DE5 /* Pods-KeenanHonda-MWFeedParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeenanHonda-MWFeedParser-dummy.m"; sourceTree = "<group>"; };
+		AEC94FA8CA13B77861397A22 /* libPods-KeenanHonda.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KeenanHonda.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FE9F0D180AAD4695AE2563 /* Pods-KeenanHonda-Google-Mobile-Ads-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenanHonda-Google-Mobile-Ads-SDK.xcconfig"; sourceTree = "<group>"; };
+		B2444E0DB5AAB7FB00C46EE2 /* Pods-KeenanHonda-MWFeedParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenanHonda-MWFeedParser.xcconfig"; sourceTree = "<group>"; };
+		B2AF48152FC65D4E0C8692CD /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		B76697C6F623632E5C603D7B /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADInterstitialDelegate.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADInterstitialDelegate.h"; sourceTree = "<group>"; };
+		B769782429A94F8449ED5BC1 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		B93EB019A919BAD671759407 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		BB1D4A54EE7CD894428BD5EB /* GADInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADInterstitial.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADInterstitial.h"; sourceTree = "<group>"; };
+		BC5C77B836DFF07411EE31C1 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		BC97F33413094773E670CDC1 /* GADAppEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADAppEventDelegate.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/DoubleClick/GADAppEventDelegate.h"; sourceTree = "<group>"; };
+		BCEB3E7F9291BFE0446291C8 /* MWFeedParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWFeedParser.h; path = Classes/MWFeedParser.h; sourceTree = "<group>"; };
+		BD996FD0E5AC26F4A5C377AD /* MMDrawerController+Storyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMDrawerController+Storyboard.m"; sourceTree = "<group>"; };
+		C29226C72A07522C71514688 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		C2F9A787DAF5034B248A40EB /* GADBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADBannerView.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADBannerView.h"; sourceTree = "<group>"; };
+		C314C1EDDC900218623E6286 /* Pods-KeenanHonda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenanHonda.debug.xcconfig"; sourceTree = "<group>"; };
+		C38AFB9191EAE5084941D195 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		C4338B2B6F0BED2F7E58E2B4 /* libPods-KeenanHonda-SDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KeenanHonda-SDWebImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5296F4D7114013E3289B588 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		C6E7A6FFB8257824A8C3E348 /* GADSearchRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADSearchRequest.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/Search/GADSearchRequest.h"; sourceTree = "<group>"; };
+		C7107F3029284385691D4B8F /* libPods-KeenanHonda-MMDrawerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KeenanHonda-MMDrawerController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C749149FACAC0B8A089C10D1 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		C7F70EEC759EFAD36361BCC3 /* Pods-KeenanHonda-MMDrawerController-Storyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeenanHonda-MMDrawerController-Storyboard-dummy.m"; sourceTree = "<group>"; };
+		C826107D9D3E058B683B6539 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		C958639F0012F957D47EB4E6 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		C9FD2E1143410AC15B446836 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		CA92114C4A3DE05E78FED054 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		CB53CAA4FCA3C8FAE7DE1780 /* Pods-KeenanHonda-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeenanHonda-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		CC81DA95F4ED46E6DBDA3983 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		CD6B41BDEFB23BD3094C7950 /* GADRequestError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADRequestError.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADRequestError.h"; sourceTree = "<group>"; };
+		D0319C650ABC6479E53AC08E /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		D039D35C6B7E8E9B3E51E267 /* Pods-KeenanHonda-SDWebImage-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenanHonda-SDWebImage-Private.xcconfig"; sourceTree = "<group>"; };
+		D6D9D370825AC0049E8D0A8A /* libPods-KeenanHonda-Google-Mobile-Ads-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KeenanHonda-Google-Mobile-Ads-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D770AF81A65E2CD7FABDB7C0 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
+		DA66891D0DC48A35766ABD6D /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		DA8DE0518CF8B5A68D77C598 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		DBD80C7FA625E6AC9E586514 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		DD5C2D67B2DA0D6DF650EBFF /* MMDrawerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMDrawerController.m; path = MMDrawerController/MMDrawerController.m; sourceTree = "<group>"; };
+		E3A0F7423B563027104D946D /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		E3F01129216104B7B3ABC926 /* Pods-KeenanHonda-MMDrawerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeenanHonda-MMDrawerController-prefix.pch"; sourceTree = "<group>"; };
+		E40C098EC74C54DC544D2DDD /* Pods-KeenanHonda-MMDrawerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeenanHonda-MMDrawerController-dummy.m"; sourceTree = "<group>"; };
+		E4CC7E26611B6E334DB2D663 /* libPods-KeenanHonda-MMDrawerController-Storyboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KeenanHonda-MMDrawerController-Storyboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59EA2491CB2C063C7CF81FA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		E5A248FC723A0523981207E6 /* MWFeedParser_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWFeedParser_Private.h; path = Classes/MWFeedParser_Private.h; sourceTree = "<group>"; };
+		E6A11850F1429848C55FC81C /* MWFeedInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MWFeedInfo.m; path = Classes/MWFeedInfo.m; sourceTree = "<group>"; };
+		E83967537FBB88B9C514CDBE /* Pods-KeenanHonda-Google-Mobile-Ads-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeenanHonda-Google-Mobile-Ads-SDK-dummy.m"; sourceTree = "<group>"; };
+		EB64F8F09C1DE1689D3FC4CB /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		EBB08A690B6A5F1315325044 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGoogleAdMobAds.a; path = "GoogleMobileAdsSdkiOS-6.12.2/libGoogleAdMobAds.a"; sourceTree = "<group>"; };
+		EE41519E054E72F7B070E9B1 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		EEF5A9D31ACC81DD40CEF121 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		F014A0EFE80BB28C3DAC44F8 /* GADRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADRequest.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADRequest.h"; sourceTree = "<group>"; };
+		F0B3F401DC8E4DFD0B2C89A0 /* GADCustomEventInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCustomEventInterstitialDelegate.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/Mediation/GADCustomEventInterstitialDelegate.h"; sourceTree = "<group>"; };
+		F4721D6EF9F48C82668A4F61 /* NSString+HTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HTML.h"; path = "Classes/NSString+HTML.h"; sourceTree = "<group>"; };
+		F4ACB68ADC8683F0A728CB03 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		F5AB3942A5599E7B060CB736 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		F633D273F25C85C40EEF666B /* Pods-KeenanHonda-SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeenanHonda-SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		F8D4E3F271A0DB6F2AE65B98 /* libPods-KeenanHonda-CardIO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KeenanHonda-CardIO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A8E9924088A76CB33D513C /* Pods-KeenanHonda.debug copy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeenanHonda.debug copy.xcconfig"; sourceTree = "<group>"; };
+		FABC7485EFAD7BE35918F8E6 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		FB4E11DD46C89625A6CD2AE7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		FF6ABCC7BB809D6091B37A45 /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+InternetDateTime.m"; path = "Classes/NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0947E3D4C9C246233FE73343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604BCB31C05BD21405F81DF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D02823420B596AF09ABA87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71F7078D122D0047C160086 /* Foundation.framework in Frameworks */,
+				9695947EF033131BF511337E /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9B95808C16CFD8EDA0CEA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04B46568742161CEE2F1B2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4758A86AEFC9BD0FFF5F05C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F87242D2E519172CCE9B15 /* CoreGraphics.framework in Frameworks */,
+				C53611655FA88CCD0A129E80 /* Foundation.framework in Frameworks */,
+				B994A1DF086BD60774B88C5B /* MobileCoreServices.framework in Frameworks */,
+				4FBC0EA1D6FACC6885203A4F /* Security.framework in Frameworks */,
+				A4277FDCEF3EE5E6435B16B2 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C284C30776CA62679F358E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0899C836D48EEA9E249DB9 /* Foundation.framework in Frameworks */,
+				32318994CB3592DA249A266B /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933C7AD341F8D3D648718970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A64105EF4EC8FA9431DB53 /* AVFoundation.framework in Frameworks */,
+				947E87803939F11F28E89124 /* AudioToolbox.framework in Frameworks */,
+				FF932DAAF80D77E69B883F5F /* CoreGraphics.framework in Frameworks */,
+				99929328A032E4DCFFA0F493 /* CoreTelephony.framework in Frameworks */,
+				25AD4165D2C9994CCB655C41 /* EventKit.framework in Frameworks */,
+				FE75DD797F5BA34AB2D7A2D0 /* EventKitUI.framework in Frameworks */,
+				7A8B6457862F1E3C861F7742 /* Foundation.framework in Frameworks */,
+				DEFDCFB60F797BF227C264A6 /* StoreKit.framework in Frameworks */,
+				3EDA84B83B0A16A27A45218D /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADACA447B01F6EB006623985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D25F26656E5AF76816456B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35ACE8BDC88FFFAFB85D258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE8E8748B63268415FD3232 /* AVFoundation.framework in Frameworks */,
+				D0EBA5283528FA577FAD45F2 /* AudioToolbox.framework in Frameworks */,
+				C34858B9DE74F901011864FB /* CoreMedia.framework in Frameworks */,
+				C8482CADFC2D442106D34BCD /* CoreVideo.framework in Frameworks */,
+				BA68A2F8208231A50345AEC9 /* Foundation.framework in Frameworks */,
+				7FABEC003578449E3DC3FF13 /* MobileCoreServices.framework in Frameworks */,
+				322731CDCFDB97A8ECAF4143 /* OpenGLES.framework in Frameworks */,
+				2A950442C5B5B648F7276AB2 /* QuartzCore.framework in Frameworks */,
+				0ABDD3A5582B6A805BFF6386 /* Security.framework in Frameworks */,
+				1F1DB19982B2C59514CEC409 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B4CF9654505C01B4437DBC9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0FE9F0D180AAD4695AE2563 /* Pods-KeenanHonda-Google-Mobile-Ads-SDK.xcconfig */,
+				913A04DAE722650E854F2BB0 /* Pods-KeenanHonda-Google-Mobile-Ads-SDK-Private.xcconfig */,
+				E83967537FBB88B9C514CDBE /* Pods-KeenanHonda-Google-Mobile-Ads-SDK-dummy.m */,
+				3A9A06C9ADF5F77E996D64CA /* Pods-KeenanHonda-Google-Mobile-Ads-SDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-KeenanHonda-Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		1928EA93B76DEE8D87809FEB /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				F4ACB68ADC8683F0A728CB03 /* AFNetworking.h */,
+				B8BFF19FC3EA42759332DF33 /* NSURLConnection */,
+				3A2A2B13EFF9FF9538F06A90 /* NSURLSession */,
+				F06A25C35C73BCE5C818870E /* Reachability */,
+				E902B3C1B8EF25CCEB9C4806 /* Security */,
+				D74023FCF2D52123248B6BAA /* Serialization */,
+				8E007C9443F88308CAE084A4 /* Support Files */,
+				A980DC67DFE53DEF8AD07B5C /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		1D6E1EA411FDB1A4389B7624 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1718B8C3DF17A013A72A6015 /* Pods-KeenanHonda-SDWebImage.xcconfig */,
+				D039D35C6B7E8E9B3E51E267 /* Pods-KeenanHonda-SDWebImage-Private.xcconfig */,
+				F633D273F25C85C40EEF666B /* Pods-KeenanHonda-SDWebImage-dummy.m */,
+				0EFEAB255C1F94EA692918BF /* Pods-KeenanHonda-SDWebImage-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-KeenanHonda-SDWebImage";
+			sourceTree = "<group>";
+		};
+		1ED7B210896D4061870413D3 = {
+			isa = PBXGroup;
+			children = (
+				48B42C2B581B52843F230D3C /* Podfile */,
+				92E5E09264FC0F9162BF631B /* Frameworks */,
+				909D26195B3DF7A0DB7B1768 /* Pods */,
+				7429078F4A84D97BA984CA11 /* Products */,
+				8DB8D25431B168E66FCD944C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		33A531118D42D83ED501C5F6 /* CardIO */ = {
+			isa = PBXGroup;
+			children = (
+				3F97497AED5641CF0D996A03 /* CardIO.h */,
+				266453198FD61A93220424EA /* CardIOCreditCardInfo.h */,
+				8E612D102AFD912B91E3585A /* CardIODetectionMode.h */,
+				5FCE701AD9DB6AA25EA7282A /* CardIOPaymentViewController.h */,
+				4912D88CFFDBD3DC90D8355D /* CardIOPaymentViewControllerDelegate.h */,
+				A40DFC265066FA703E073ECA /* CardIOUtilities.h */,
+				60F45BA997662C502D975133 /* CardIOView.h */,
+				7C9AF0E84EBE938F39C44F06 /* CardIOViewDelegate.h */,
+				760E354AC8B02D61988506F9 /* Support Files */,
+			);
+			path = CardIO;
+			sourceTree = "<group>";
+		};
+		3A2A2B13EFF9FF9538F06A90 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				4878B4FDD3FD6BF50F98E3B9 /* AFHTTPSessionManager.h */,
+				E3A0F7423B563027104D946D /* AFHTTPSessionManager.m */,
+				C958639F0012F957D47EB4E6 /* AFURLSessionManager.h */,
+				816FFD8FFE36BDF33ABB0832 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		3F11D0E31AEEFB1B1C53153E /* NSDate+InternetDateTime */ = {
+			isa = PBXGroup;
+			children = (
+				226EC29AAF6739A30B20DC3F /* NSDate+InternetDateTime.h */,
+				FF6ABCC7BB809D6091B37A45 /* NSDate+InternetDateTime.m */,
+			);
+			name = "NSDate+InternetDateTime";
+			sourceTree = "<group>";
+		};
+		42A163B4B2510D6691CF4F68 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2444E0DB5AAB7FB00C46EE2 /* Pods-KeenanHonda-MWFeedParser.xcconfig */,
+				ACE581109064A8C53206B27E /* Pods-KeenanHonda-MWFeedParser-Private.xcconfig */,
+				AE5255D00A2F08BC94CB1DE5 /* Pods-KeenanHonda-MWFeedParser-dummy.m */,
+				62FB37E3B5622A120FE22D0C /* Pods-KeenanHonda-MWFeedParser-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-KeenanHonda-MWFeedParser";
+			sourceTree = "<group>";
+		};
+		45F2F7B522CD4BCA97C92846 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBB08A690B6A5F1315325044 /* libGoogleAdMobAds.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52869CCC7B775316C27F2C65 /* MMDrawerController-Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				212345957E8C29455A7F8735 /* MMDrawerController+Storyboard.h */,
+				BD996FD0E5AC26F4A5C377AD /* MMDrawerController+Storyboard.m */,
+				EED5A29D419F59FEBD1EDB5A /* Support Files */,
+			);
+			path = "MMDrawerController-Storyboard";
+			sourceTree = "<group>";
+		};
+		579F49D96F23000E03D7858C /* NSString+HTML */ = {
+			isa = PBXGroup;
+			children = (
+				71659B263AE4EF6ACFEB6984 /* GTMNSString+HTML.h */,
+				269D67C1BF1F7DCF745D7D5F /* GTMNSString+HTML.m */,
+				F4721D6EF9F48C82668A4F61 /* NSString+HTML.h */,
+				6DD31DE8ABA364E81DF3ECDF /* NSString+HTML.m */,
+			);
+			name = "NSString+HTML";
+			sourceTree = "<group>";
+		};
+		57D0BFBDDA8A8E16A5864B50 /* MMDrawerBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				17573225762C76ED079E8148 /* MMDrawerBarButtonItem.h */,
+				3BF551EB81CCCAAA3392B4D4 /* MMDrawerBarButtonItem.m */,
+			);
+			name = MMDrawerBarButtonItem;
+			sourceTree = "<group>";
+		};
+		7429078F4A84D97BA984CA11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEC94FA8CA13B77861397A22 /* libPods-KeenanHonda.a */,
+				82ADE1C68C22204CCECA38D1 /* libPods-KeenanHonda-AFNetworking.a */,
+				F8D4E3F271A0DB6F2AE65B98 /* libPods-KeenanHonda-CardIO.a */,
+				D6D9D370825AC0049E8D0A8A /* libPods-KeenanHonda-Google-Mobile-Ads-SDK.a */,
+				C7107F3029284385691D4B8F /* libPods-KeenanHonda-MMDrawerController.a */,
+				E4CC7E26611B6E334DB2D663 /* libPods-KeenanHonda-MMDrawerController-Storyboard.a */,
+				3B2FA00AD079FC0F21EB3D45 /* libPods-KeenanHonda-MWFeedParser.a */,
+				C4338B2B6F0BED2F7E58E2B4 /* libPods-KeenanHonda-SDWebImage.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		760E354AC8B02D61988506F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3582C4B625D993CD47580789 /* Pods-KeenanHonda-CardIO.xcconfig */,
+				60E696B50C9A2F24DCB2FD32 /* Pods-KeenanHonda-CardIO-Private.xcconfig */,
+				811CC09CAFB78568069A8301 /* Pods-KeenanHonda-CardIO-dummy.m */,
+				A7F8299958B2A413149E02AE /* Pods-KeenanHonda-CardIO-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-KeenanHonda-CardIO";
+			sourceTree = "<group>";
+		};
+		7A235E06014392731C5857D5 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				7705246DE3DC3F16B6C9521B /* DFPBannerView.h */,
+				A288D164B16D718FD4CCB3DF /* DFPExtras.h */,
+				2A4A186C58BECAB5C82AFC81 /* DFPInterstitial.h */,
+				60F35C70780B8FD9F94369EF /* DFPSwipeableBannerView.h */,
+				9FEAF86AA14A67B92B431DE3 /* GADAdMobExtras.h */,
+				74965AFDE7C7E1FF08DAF7E2 /* GADAdNetworkExtras.h */,
+				152B42C51F02A39D3C94538B /* GADAdSize.h */,
+				014B11918561B37E89260EEF /* GADAdSizeDelegate.h */,
+				BC97F33413094773E670CDC1 /* GADAppEventDelegate.h */,
+				C2F9A787DAF5034B248A40EB /* GADBannerView.h */,
+				8701FBF48C488A90ECC0ED2E /* GADBannerViewDelegate.h */,
+				5B68FC6C4A026C68A6C027DF /* GADCustomEventBanner.h */,
+				1FF4CAC1104497977711F92E /* GADCustomEventBannerDelegate.h */,
+				2B3FC897F2C7F92A2D2FA386 /* GADCustomEventExtras.h */,
+				1F4699D8C57B0C18ADCD4213 /* GADCustomEventInterstitial.h */,
+				F0B3F401DC8E4DFD0B2C89A0 /* GADCustomEventInterstitialDelegate.h */,
+				712D31CD4A5850541A75A5C7 /* GADCustomEventRequest.h */,
+				03DF2B5291C63146B14B0159 /* GADInAppPurchase.h */,
+				49FD61CB9E2ACE0F59E3130B /* GADInAppPurchaseDelegate.h */,
+				BB1D4A54EE7CD894428BD5EB /* GADInterstitial.h */,
+				B76697C6F623632E5C603D7B /* GADInterstitialDelegate.h */,
+				536B8AA8A8B96A1310EDA55D /* GADModules.h */,
+				F014A0EFE80BB28C3DAC44F8 /* GADRequest.h */,
+				CD6B41BDEFB23BD3094C7950 /* GADRequestError.h */,
+				357C93F3475742693CB20E7F /* GADSearchBannerView.h */,
+				C6E7A6FFB8257824A8C3E348 /* GADSearchRequest.h */,
+				0D261FB3BFBB45153C2F4311 /* GADSwipeableBannerViewDelegate.h */,
+				45F2F7B522CD4BCA97C92846 /* Frameworks */,
+				0B4CF9654505C01B4437DBC9 /* Support Files */,
+			);
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		8B88568D5A855B81FB966B86 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F2DAA27DF909D234A2A6E54 /* Pods-KeenanHonda-MMDrawerController.xcconfig */,
+				0E86949A241FC2810B4574B2 /* Pods-KeenanHonda-MMDrawerController-Private.xcconfig */,
+				E40C098EC74C54DC544D2DDD /* Pods-KeenanHonda-MMDrawerController-dummy.m */,
+				E3F01129216104B7B3ABC926 /* Pods-KeenanHonda-MMDrawerController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-KeenanHonda-MMDrawerController";
+			sourceTree = "<group>";
+		};
+		8DB8D25431B168E66FCD944C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A72D75F0B7B30A8B74DBD025 /* Pods-KeenanHonda */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8E007C9443F88308CAE084A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1398523ADA7638AA506F568D /* Pods-KeenanHonda-AFNetworking.xcconfig */,
+				2DD9075036EF105C1D6014DE /* Pods-KeenanHonda-AFNetworking-Private.xcconfig */,
+				48A3980F80B86B12368FE964 /* Pods-KeenanHonda-AFNetworking-dummy.m */,
+				CB53CAA4FCA3C8FAE7DE1780 /* Pods-KeenanHonda-AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-KeenanHonda-AFNetworking";
+			sourceTree = "<group>";
+		};
+		8F9B069C9A9239425A1F3EA0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8AC2342DA0A60B3DC69852FC /* NSData+ImageContentType.h */,
+				B2AF48152FC65D4E0C8692CD /* NSData+ImageContentType.m */,
+				4AB241E4A6A8B1822F48EA2C /* SDImageCache.h */,
+				84A08D0E607DB9D0F7B8B614 /* SDImageCache.m */,
+				C38AFB9191EAE5084941D195 /* SDWebImageCompat.h */,
+				30E23BF727DAE61387B17701 /* SDWebImageCompat.m */,
+				D770AF81A65E2CD7FABDB7C0 /* SDWebImageDecoder.h */,
+				17A5143E3ADB6CD073DCDB23 /* SDWebImageDecoder.m */,
+				0B641A177D4C4A9191F1F79E /* SDWebImageDownloader.h */,
+				4127C78CC15965842FC209B8 /* SDWebImageDownloader.m */,
+				0617D17F6E3C0C6578B3D07D /* SDWebImageDownloaderOperation.h */,
+				0E6219AB007E316563F461FF /* SDWebImageDownloaderOperation.m */,
+				B93EB019A919BAD671759407 /* SDWebImageManager.h */,
+				8E6472D8A80A6EF581DFF5CD /* SDWebImageManager.m */,
+				F5AB3942A5599E7B060CB736 /* SDWebImageOperation.h */,
+				C9FD2E1143410AC15B446836 /* SDWebImagePrefetcher.h */,
+				2B4DC6AAD42C1D8ADED87870 /* SDWebImagePrefetcher.m */,
+				EE41519E054E72F7B070E9B1 /* UIButton+WebCache.h */,
+				9F637E6FD5EBEAE99C65F57B /* UIButton+WebCache.m */,
+				885706ACBB0F15761DC0F201 /* UIImage+GIF.h */,
+				4C3A32040464C210F328BA5F /* UIImage+GIF.m */,
+				5CFD026E4B81E4E9DE5BC50C /* UIImage+MultiFormat.h */,
+				EEF5A9D31ACC81DD40CEF121 /* UIImage+MultiFormat.m */,
+				FABC7485EFAD7BE35918F8E6 /* UIImageView+HighlightedWebCache.h */,
+				91E84A88D3105FCA9C53913C /* UIImageView+HighlightedWebCache.m */,
+				09CEEC6496AB3DCD64C28E48 /* UIImageView+WebCache.h */,
+				87E00949411EEDF0ADAEBDE8 /* UIImageView+WebCache.m */,
+				C826107D9D3E058B683B6539 /* UIView+WebCacheOperation.h */,
+				3E7D8CD13DBDD545B28B0B6D /* UIView+WebCacheOperation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		909D26195B3DF7A0DB7B1768 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1928EA93B76DEE8D87809FEB /* AFNetworking */,
+				33A531118D42D83ED501C5F6 /* CardIO */,
+				7A235E06014392731C5857D5 /* Google-Mobile-Ads-SDK */,
+				DE613DFE386E040868B0E1AA /* MMDrawerController */,
+				52869CCC7B775316C27F2C65 /* MMDrawerController-Storyboard */,
+				B1856AB440B9C17FC7379116 /* MWFeedParser */,
+				FB8BDD7C9E0E906840BCCCB8 /* SDWebImage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92E5E09264FC0F9162BF631B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6510DE8E8BA7F288F32BB51 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6510DE8E8BA7F288F32BB51 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6302D7C6BDB1BDBC7A419603 /* AVFoundation.framework */,
+				36FE9DD6272A1CC7E6C37CD0 /* AudioToolbox.framework */,
+				4E820C16FF60EA9FE3989DA4 /* CoreGraphics.framework */,
+				4911F1A62222DF9C964F90DA /* CoreMedia.framework */,
+				E59EA2491CB2C063C7CF81FA /* CoreTelephony.framework */,
+				05F26B0A5F7D1B1169A9949A /* CoreVideo.framework */,
+				749D731692C7BBBE910E3524 /* EventKit.framework */,
+				5F04E17A5BDE383A7260391C /* EventKitUI.framework */,
+				275AF73B597B4F41C549E9E4 /* Foundation.framework */,
+				485819B688FEB1D30214F427 /* ImageIO.framework */,
+				13FD710AC19EBB44D36C3541 /* MobileCoreServices.framework */,
+				FB4E11DD46C89625A6CD2AE7 /* OpenGLES.framework */,
+				DA8DE0518CF8B5A68D77C598 /* QuartzCore.framework */,
+				62AE007E1D3D4197A5946B5C /* Security.framework */,
+				05147ECD9B856CFA6BED1746 /* StoreKit.framework */,
+				25CC5FE123633ADCD1644D89 /* SystemConfiguration.framework */,
+				183D82F1B2A1CF4EA56E093F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A72D75F0B7B30A8B74DBD025 /* Pods-KeenanHonda */ = {
+			isa = PBXGroup;
+			children = (
+				318F165BEE6AF3574119F9DF /* Pods-KeenanHonda-acknowledgements.markdown */,
+				7D72AE6B1E0BDB90E83AF584 /* Pods-KeenanHonda-acknowledgements.plist */,
+				4333A0D8E654ED0684CB508D /* Pods-KeenanHonda-dummy.m */,
+				390358F05C0418B197955AE7 /* Pods-KeenanHonda-environment.h */,
+				1541AE54C5C99DC5853A40CF /* Pods-KeenanHonda-resources.sh */,
+				C314C1EDDC900218623E6286 /* Pods-KeenanHonda.debug.xcconfig */,
+				F9A8E9924088A76CB33D513C /* Pods-KeenanHonda.debug copy.xcconfig */,
+				7423739E3202268D1EC248A0 /* Pods-KeenanHonda.release.xcconfig */,
+			);
+			name = "Pods-KeenanHonda";
+			path = "Target Support Files/Pods-KeenanHonda";
+			sourceTree = "<group>";
+		};
+		A980DC67DFE53DEF8AD07B5C /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				8DC93579124588AA0904FD5A /* AFNetworkActivityIndicatorManager.h */,
+				76702887175B756405121811 /* AFNetworkActivityIndicatorManager.m */,
+				D0319C650ABC6479E53AC08E /* UIActivityIndicatorView+AFNetworking.h */,
+				BC5C77B836DFF07411EE31C1 /* UIActivityIndicatorView+AFNetworking.m */,
+				EB64F8F09C1DE1689D3FC4CB /* UIAlertView+AFNetworking.h */,
+				647D132BF767145EE8418057 /* UIAlertView+AFNetworking.m */,
+				4D5279324A743958B4FA1B2A /* UIButton+AFNetworking.h */,
+				DA66891D0DC48A35766ABD6D /* UIButton+AFNetworking.m */,
+				50151562E4DB166754D217DD /* UIImageView+AFNetworking.h */,
+				CA92114C4A3DE05E78FED054 /* UIImageView+AFNetworking.m */,
+				C749149FACAC0B8A089C10D1 /* UIKit+AFNetworking.h */,
+				78CF55BD6A6F0386ECE647E9 /* UIProgressView+AFNetworking.h */,
+				5F87389205DA2AF039AD4E94 /* UIProgressView+AFNetworking.m */,
+				3B79D8B47EF5AAAF79DD15FC /* UIRefreshControl+AFNetworking.h */,
+				32230E64D9C94182F109167A /* UIRefreshControl+AFNetworking.m */,
+				B769782429A94F8449ED5BC1 /* UIWebView+AFNetworking.h */,
+				521BB194D62A1112E12B2002 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		AA263872184BF21AD8F2B2AA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9EC33A22F013AD997819E202 /* MMDrawerController.h */,
+				DD5C2D67B2DA0D6DF650EBFF /* MMDrawerController.m */,
+				74CAFAFC705E0D7F7B13B8EB /* MMDrawerController+Subclass.h */,
+				38E43C51BF5EAB866CF2A9EB /* UIViewController+MMDrawerController.h */,
+				24BEA7DA02A9760AF53129D2 /* UIViewController+MMDrawerController.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B1856AB440B9C17FC7379116 /* MWFeedParser */ = {
+			isa = PBXGroup;
+			children = (
+				F70D14D5763FC0BA8FCAE7B5 /* FeedParser */,
+				3F11D0E31AEEFB1B1C53153E /* NSDate+InternetDateTime */,
+				579F49D96F23000E03D7858C /* NSString+HTML */,
+				42A163B4B2510D6691CF4F68 /* Support Files */,
+			);
+			path = MWFeedParser;
+			sourceTree = "<group>";
+		};
+		B8BFF19FC3EA42759332DF33 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				6790141E2C2258269582A9DC /* AFHTTPRequestOperation.h */,
+				C5296F4D7114013E3289B588 /* AFHTTPRequestOperation.m */,
+				0EAD108A0934D825943022A0 /* AFHTTPRequestOperationManager.h */,
+				DBD80C7FA625E6AC9E586514 /* AFHTTPRequestOperationManager.m */,
+				7DD6A1A93110693AE721B67E /* AFURLConnectionOperation.h */,
+				216F6EC44DFCF56B25B12840 /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		BB6EF6CA9D5F1CF5B1CE7EC5 /* Subclass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Subclass;
+			sourceTree = "<group>";
+		};
+		C06A96752415144B2E45340B /* MMDrawerVisualStates */ = {
+			isa = PBXGroup;
+			children = (
+				56A450030446037ED46E61DC /* MMDrawerVisualState.h */,
+				2E9D1ECAABA63E317A90DC08 /* MMDrawerVisualState.m */,
+			);
+			name = MMDrawerVisualStates;
+			sourceTree = "<group>";
+		};
+		D74023FCF2D52123248B6BAA /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				A2ED86459D1D1ABD92D50A6F /* AFURLRequestSerialization.h */,
+				98A665C3DF36D52444178B4F /* AFURLRequestSerialization.m */,
+				9D7FD7A4037DFF4AAB4E8B72 /* AFURLResponseSerialization.h */,
+				2A0FE8E479C39545FB7D1907 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		DE613DFE386E040868B0E1AA /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				AA263872184BF21AD8F2B2AA /* Core */,
+				57D0BFBDDA8A8E16A5864B50 /* MMDrawerBarButtonItem */,
+				C06A96752415144B2E45340B /* MMDrawerVisualStates */,
+				BB6EF6CA9D5F1CF5B1CE7EC5 /* Subclass */,
+				8B88568D5A855B81FB966B86 /* Support Files */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		E902B3C1B8EF25CCEB9C4806 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				6FAF2F1FFD589923238E3928 /* AFSecurityPolicy.h */,
+				4D81C98A4A5B580436DF7C53 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		EED5A29D419F59FEBD1EDB5A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				53452AE3C552A9D4291C6388 /* Pods-KeenanHonda-MMDrawerController-Storyboard.xcconfig */,
+				829CF7048178654562C4F66B /* Pods-KeenanHonda-MMDrawerController-Storyboard-Private.xcconfig */,
+				C7F70EEC759EFAD36361BCC3 /* Pods-KeenanHonda-MMDrawerController-Storyboard-dummy.m */,
+				035BAB62C482CFCA1EDD801B /* Pods-KeenanHonda-MMDrawerController-Storyboard-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-KeenanHonda-MMDrawerController-Storyboard";
+			sourceTree = "<group>";
+		};
+		F06A25C35C73BCE5C818870E /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				C29226C72A07522C71514688 /* AFNetworkReachabilityManager.h */,
+				CC81DA95F4ED46E6DBDA3983 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		F70D14D5763FC0BA8FCAE7B5 /* FeedParser */ = {
+			isa = PBXGroup;
+			children = (
+				64A8D4EBBF1E376EEB1E3317 /* MWFeedInfo.h */,
+				E6A11850F1429848C55FC81C /* MWFeedInfo.m */,
+				A2E3182035B2237F28B029D5 /* MWFeedItem.h */,
+				9559219992746011D36DAB28 /* MWFeedItem.m */,
+				BCEB3E7F9291BFE0446291C8 /* MWFeedParser.h */,
+				74B40E872715A0C7397ABA96 /* MWFeedParser.m */,
+				E5A248FC723A0523981207E6 /* MWFeedParser_Private.h */,
+			);
+			name = FeedParser;
+			sourceTree = "<group>";
+		};
+		FB8BDD7C9E0E906840BCCCB8 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				8F9B069C9A9239425A1F3EA0 /* Core */,
+				1D6E1EA411FDB1A4389B7624 /* Support Files */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8CC19C84442EF3B5A8658FC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0C966F5BA31B90C8BC16E4 /* AFHTTPRequestOperation.h in Headers */,
+				7FE3F22647505EFD240A6B85 /* AFHTTPRequestOperationManager.h in Headers */,
+				CEB39D73BCB32C2905553E0D /* AFHTTPSessionManager.h in Headers */,
+				EBEE8F87EA3304C68A667ED7 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				62A5175FC80691A6D03BB290 /* AFNetworkReachabilityManager.h in Headers */,
+				6F35E96CE01B29975074C7B4 /* AFNetworking.h in Headers */,
+				30279B4720DE7F839A44DCCC /* AFSecurityPolicy.h in Headers */,
+				A250FE2DAC8429B7171F0931 /* AFURLConnectionOperation.h in Headers */,
+				27BD2C19358ED995B4626C8C /* AFURLRequestSerialization.h in Headers */,
+				20A19C645B39125FFEBB869F /* AFURLResponseSerialization.h in Headers */,
+				8E216F5585DA520448236C15 /* AFURLSessionManager.h in Headers */,
+				C5B00F4F5AF7751A2E21AE8A /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				305D1A6B5441967A22D91090 /* UIAlertView+AFNetworking.h in Headers */,
+				51D01056639F018567369C45 /* UIButton+AFNetworking.h in Headers */,
+				0E9A373E912978D81D930666 /* UIImageView+AFNetworking.h in Headers */,
+				32DB44F70984223CC16B1E88 /* UIKit+AFNetworking.h in Headers */,
+				184D5F60621ED33F3EA13DAD /* UIProgressView+AFNetworking.h in Headers */,
+				931099D46071652A34719A9A /* UIRefreshControl+AFNetworking.h in Headers */,
+				CE7DFB812A4B0B54BECF9981 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A265956F608C1B6220875E0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAFD46BBECB6D40CFC09010 /* MMDrawerController+Storyboard.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA64D44E8804AADACF82CE00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3845AB2849EB0A4FAF00D316 /* CardIO.h in Headers */,
+				0ADEC2A8920B3A93B934592D /* CardIOCreditCardInfo.h in Headers */,
+				16AEF7E4A9C2251C124BF32B /* CardIODetectionMode.h in Headers */,
+				2AB733182747605A97354CE6 /* CardIOPaymentViewController.h in Headers */,
+				04EF06A51CC94F25B0B8E8E6 /* CardIOPaymentViewControllerDelegate.h in Headers */,
+				C97B86C03A42F2285F977B11 /* CardIOUtilities.h in Headers */,
+				D269596CE1541BE30C68FC44 /* CardIOView.h in Headers */,
+				48262CE7FB48FE3117C1EBD2 /* CardIOViewDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C017A1FDADDB9537A30E555E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7265C469C480AD91E17C5D /* DFPBannerView.h in Headers */,
+				F4B329E615BF0EA928CA2E68 /* DFPExtras.h in Headers */,
+				BFA0B2E21D51B459E2E3B91C /* DFPInterstitial.h in Headers */,
+				8D25E067718603A35DA12956 /* DFPSwipeableBannerView.h in Headers */,
+				E735AE095DAF5015CCF95523 /* GADAdMobExtras.h in Headers */,
+				DF21921F5A7F8F7831C1081F /* GADAdNetworkExtras.h in Headers */,
+				F21E5AD757AA265A9B782987 /* GADAdSize.h in Headers */,
+				90BED87D297A493E61CBFB9D /* GADAdSizeDelegate.h in Headers */,
+				55799690F63EE09CB7F8E0BA /* GADAppEventDelegate.h in Headers */,
+				0E1604EDEFDAF4B554C6A119 /* GADBannerView.h in Headers */,
+				FC193E90B5CE8A48296C5D3C /* GADBannerViewDelegate.h in Headers */,
+				81994FE27C2B1A429A68BD3D /* GADCustomEventBanner.h in Headers */,
+				0F605037B47E8BD0B89AEFFF /* GADCustomEventBannerDelegate.h in Headers */,
+				FB3B643B0AFDEC604F5951DD /* GADCustomEventExtras.h in Headers */,
+				86424D62865F0534DAF9F67F /* GADCustomEventInterstitial.h in Headers */,
+				C1D4E4B7BE3DD3684C90F142 /* GADCustomEventInterstitialDelegate.h in Headers */,
+				5343A73B2F74E6B03D1B0728 /* GADCustomEventRequest.h in Headers */,
+				33F57050A41B5E8E911EA8BD /* GADInAppPurchase.h in Headers */,
+				5A0BAF33EF8DFB5403487854 /* GADInAppPurchaseDelegate.h in Headers */,
+				C8B070C427A099ED5374AED8 /* GADInterstitial.h in Headers */,
+				9BBB6877DA00E7B9E92CB49A /* GADInterstitialDelegate.h in Headers */,
+				11C66DEB4E44F2018638F081 /* GADModules.h in Headers */,
+				085833DC8FE37665D746FE09 /* GADRequest.h in Headers */,
+				CB52A26D5B105AB3D7484302 /* GADRequestError.h in Headers */,
+				34B5DD0078AE60FEA24D5F57 /* GADSearchBannerView.h in Headers */,
+				D9D56C3AA7EB567CEACCB6B0 /* GADSearchRequest.h in Headers */,
+				1E4CD70D620379811D1DB6D9 /* GADSwipeableBannerViewDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DBA8382E05062B33C0B0F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C985F79D5718D2224F1F82E4 /* MMDrawerBarButtonItem.h in Headers */,
+				F11563008B4B3DECC47B2BE8 /* MMDrawerController+Subclass.h in Headers */,
+				6E13506253E0222900D92560 /* MMDrawerController+Subclass.h in Headers */,
+				FC317E23F7AC7512C2CCEA3C /* MMDrawerController.h in Headers */,
+				AEC0BD683DBCCB256CAAFCA0 /* MMDrawerVisualState.h in Headers */,
+				5FD69D0D42FBFF106B259F55 /* UIViewController+MMDrawerController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5BCD074EE6DEFFD0BE1D099 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8CA78AA42C18A1F4ED0E90D /* GTMNSString+HTML.h in Headers */,
+				14C2AED658B27F25D2CDD321 /* MWFeedInfo.h in Headers */,
+				4A133505FA7750FE1844467D /* MWFeedItem.h in Headers */,
+				47BEE9EC6E678B9C826C278C /* MWFeedParser.h in Headers */,
+				9DD3B14C279AA10D7B6FE7B9 /* MWFeedParser_Private.h in Headers */,
+				3F76B97F4803BF0A1B38328F /* NSDate+InternetDateTime.h in Headers */,
+				D498CBA8D9080C011FB49075 /* NSString+HTML.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6489FAC454BA25792FDBC35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CB15A6C2906C7AF704718D /* NSData+ImageContentType.h in Headers */,
+				D77392E47C3F08C7BB3C9443 /* SDImageCache.h in Headers */,
+				0FA1C75A4DB9D91DBA11145C /* SDWebImageCompat.h in Headers */,
+				ED7082F7CCC1AF1FD0357AA8 /* SDWebImageDecoder.h in Headers */,
+				BFF7D4A8894BD7137562DF17 /* SDWebImageDownloader.h in Headers */,
+				81B17DF25296F935D02D2F7C /* SDWebImageDownloaderOperation.h in Headers */,
+				D7AA4A852FC3833D21984096 /* SDWebImageManager.h in Headers */,
+				8CCE53039C9348502B61A654 /* SDWebImageOperation.h in Headers */,
+				5A21B1B4F4CB121A51983879 /* SDWebImagePrefetcher.h in Headers */,
+				258376206F22F6DBCD884393 /* UIButton+WebCache.h in Headers */,
+				9F8AD370AE92C797DA9B0A8A /* UIImage+GIF.h in Headers */,
+				09387D2A25451ED120AF9F93 /* UIImage+MultiFormat.h in Headers */,
+				E48B4528C3FD0289D3585A74 /* UIImageView+HighlightedWebCache.h in Headers */,
+				AD2F4B870451A587B14870FB /* UIImageView+WebCache.h in Headers */,
+				5BD969A856C210B32183302F /* UIView+WebCacheOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		140D90C7E27BFF489D8CE493 /* Pods-KeenanHonda-MWFeedParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F291810D758E4EA5BDF0040 /* Build configuration list for PBXNativeTarget "Pods-KeenanHonda-MWFeedParser" */;
+			buildPhases = (
+				FB73DF640D67BA1F7CECC586 /* Sources */,
+				0947E3D4C9C246233FE73343 /* Frameworks */,
+				D5BCD074EE6DEFFD0BE1D099 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KeenanHonda-MWFeedParser";
+			productName = "Pods-KeenanHonda-MWFeedParser";
+			productReference = 3B2FA00AD079FC0F21EB3D45 /* libPods-KeenanHonda-MWFeedParser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		33EC1E2E8C22A567DC20FD53 /* Pods-KeenanHonda-MMDrawerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E63420E5EB519421F7104BC /* Build configuration list for PBXNativeTarget "Pods-KeenanHonda-MMDrawerController" */;
+			buildPhases = (
+				54246AE9D9AD0968C6F3C519 /* Sources */,
+				57C284C30776CA62679F358E /* Frameworks */,
+				C7DBA8382E05062B33C0B0F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KeenanHonda-MMDrawerController";
+			productName = "Pods-KeenanHonda-MMDrawerController";
+			productReference = C7107F3029284385691D4B8F /* libPods-KeenanHonda-MMDrawerController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		673B04AA3FD2C0033D374FDC /* Pods-KeenanHonda-SDWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB01AE1ECC98C956C23211C /* Build configuration list for PBXNativeTarget "Pods-KeenanHonda-SDWebImage" */;
+			buildPhases = (
+				9CC52DC06FCB2A0F58859012 /* Sources */,
+				17D02823420B596AF09ABA87 /* Frameworks */,
+				D6489FAC454BA25792FDBC35 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KeenanHonda-SDWebImage";
+			productName = "Pods-KeenanHonda-SDWebImage";
+			productReference = C4338B2B6F0BED2F7E58E2B4 /* libPods-KeenanHonda-SDWebImage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7B2CE1F753F12B29EEF1C6E9 /* Pods-KeenanHonda-MMDrawerController-Storyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A269D01B8AD86EA7C0A33759 /* Build configuration list for PBXNativeTarget "Pods-KeenanHonda-MMDrawerController-Storyboard" */;
+			buildPhases = (
+				6BB0A285D4EF53651759EB94 /* Sources */,
+				3C9B95808C16CFD8EDA0CEA4 /* Frameworks */,
+				A265956F608C1B6220875E0D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CCFA963B91D259861730BF4 /* PBXTargetDependency */,
+			);
+			name = "Pods-KeenanHonda-MMDrawerController-Storyboard";
+			productName = "Pods-KeenanHonda-MMDrawerController-Storyboard";
+			productReference = E4CC7E26611B6E334DB2D663 /* libPods-KeenanHonda-MMDrawerController-Storyboard.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		998C18669900FC5134D35397 /* Pods-KeenanHonda-CardIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6511C0BC36CEFA361CDE1F0F /* Build configuration list for PBXNativeTarget "Pods-KeenanHonda-CardIO" */;
+			buildPhases = (
+				7458D91346065BB630B00B9D /* Sources */,
+				F35ACE8BDC88FFFAFB85D258 /* Frameworks */,
+				BA64D44E8804AADACF82CE00 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KeenanHonda-CardIO";
+			productName = "Pods-KeenanHonda-CardIO";
+			productReference = F8D4E3F271A0DB6F2AE65B98 /* libPods-KeenanHonda-CardIO.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D1044A0853187F70A561ADC5 /* Pods-KeenanHonda-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74BAE2D4C3FABE5C552F2F13 /* Build configuration list for PBXNativeTarget "Pods-KeenanHonda-AFNetworking" */;
+			buildPhases = (
+				F8C78049AE575063A8E5993B /* Sources */,
+				4758A86AEFC9BD0FFF5F05C1 /* Frameworks */,
+				8CC19C84442EF3B5A8658FC1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KeenanHonda-AFNetworking";
+			productName = "Pods-KeenanHonda-AFNetworking";
+			productReference = 82ADE1C68C22204CCECA38D1 /* libPods-KeenanHonda-AFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E5F668657D31B889FA1EA12D /* Pods-KeenanHonda-Google-Mobile-Ads-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B133404C8403B24BFD27B0A /* Build configuration list for PBXNativeTarget "Pods-KeenanHonda-Google-Mobile-Ads-SDK" */;
+			buildPhases = (
+				A5650602EE08DB36031C2000 /* Sources */,
+				933C7AD341F8D3D648718970 /* Frameworks */,
+				C017A1FDADDB9537A30E555E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KeenanHonda-Google-Mobile-Ads-SDK";
+			productName = "Pods-KeenanHonda-Google-Mobile-Ads-SDK";
+			productReference = D6D9D370825AC0049E8D0A8A /* libPods-KeenanHonda-Google-Mobile-Ads-SDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FA85C137DA7CBE0A7BC87161 /* Pods-KeenanHonda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D6E0289A64EFDFACEFB89BC /* Build configuration list for PBXNativeTarget "Pods-KeenanHonda" */;
+			buildPhases = (
+				06EB1D49689D7010757B5BF0 /* Sources */,
+				ADACA447B01F6EB006623985 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFFC43B21DE21406B4242D9F /* PBXTargetDependency */,
+				8331C8C1B046A19B24C3074A /* PBXTargetDependency */,
+				EF962574FB26280E3201AB90 /* PBXTargetDependency */,
+				33362C2FC287DFE885704241 /* PBXTargetDependency */,
+				E9FD68C2E16AADC8014AD872 /* PBXTargetDependency */,
+				7B5E20ECCDEB96ED0A38D37A /* PBXTargetDependency */,
+				AE98084C0D491533CB839E72 /* PBXTargetDependency */,
+			);
+			name = "Pods-KeenanHonda";
+			productName = "Pods-KeenanHonda";
+			productReference = AEC94FA8CA13B77861397A22 /* libPods-KeenanHonda.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD2724665F9814BBFB5F35DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 8F9DC58ACD375800532AC0E2 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1ED7B210896D4061870413D3;
+			productRefGroup = 7429078F4A84D97BA984CA11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA85C137DA7CBE0A7BC87161 /* Pods-KeenanHonda */,
+				D1044A0853187F70A561ADC5 /* Pods-KeenanHonda-AFNetworking */,
+				998C18669900FC5134D35397 /* Pods-KeenanHonda-CardIO */,
+				E5F668657D31B889FA1EA12D /* Pods-KeenanHonda-Google-Mobile-Ads-SDK */,
+				33EC1E2E8C22A567DC20FD53 /* Pods-KeenanHonda-MMDrawerController */,
+				7B2CE1F753F12B29EEF1C6E9 /* Pods-KeenanHonda-MMDrawerController-Storyboard */,
+				140D90C7E27BFF489D8CE493 /* Pods-KeenanHonda-MWFeedParser */,
+				673B04AA3FD2C0033D374FDC /* Pods-KeenanHonda-SDWebImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06EB1D49689D7010757B5BF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC80BE9151638768EAE2B02 /* Pods-KeenanHonda-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54246AE9D9AD0968C6F3C519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1BC89F0897E3E3F69C2E20 /* MMDrawerBarButtonItem.m in Sources */,
+				F4DC6EF4DD3903724F9C1645 /* MMDrawerController.m in Sources */,
+				80817C7B2DFEFCA0DAD8E221 /* MMDrawerVisualState.m in Sources */,
+				70D6DB8311977547B700DA30 /* Pods-KeenanHonda-MMDrawerController-dummy.m in Sources */,
+				293F8A553747545FA85B2CAA /* UIViewController+MMDrawerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB0A285D4EF53651759EB94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2CF2446AC39581355503F4 /* MMDrawerController+Storyboard.m in Sources */,
+				F8C05CD10FE07FC8322C1809 /* Pods-KeenanHonda-MMDrawerController-Storyboard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7458D91346065BB630B00B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EF64779110630F08BB1BDB /* Pods-KeenanHonda-CardIO-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC52DC06FCB2A0F58859012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2386708B8561AAA4F699784 /* NSData+ImageContentType.m in Sources */,
+				AAF6A6A0A8DDD0893C828599 /* Pods-KeenanHonda-SDWebImage-dummy.m in Sources */,
+				CF5C81CEED9F43B790BC4731 /* SDImageCache.m in Sources */,
+				4AD700B35EF7400099F72993 /* SDWebImageCompat.m in Sources */,
+				A0C1207724598CCC4DCE7AA9 /* SDWebImageDecoder.m in Sources */,
+				0BFDE11BB8BEE57FBB75D8DD /* SDWebImageDownloader.m in Sources */,
+				DF891D3E786ADB16319482D9 /* SDWebImageDownloaderOperation.m in Sources */,
+				958DD3F462C863AE2D7BA08E /* SDWebImageManager.m in Sources */,
+				AE544E77DE820BCC17527C8F /* SDWebImagePrefetcher.m in Sources */,
+				02ABB5C1A85AD51272733027 /* UIButton+WebCache.m in Sources */,
+				B2D12D87184B4E2E33298ABB /* UIImage+GIF.m in Sources */,
+				3311794DF2B690EEC26F4056 /* UIImage+MultiFormat.m in Sources */,
+				412D8563143BC8E989D578E6 /* UIImageView+HighlightedWebCache.m in Sources */,
+				10FFCC1E2FBB73EE07D1127A /* UIImageView+WebCache.m in Sources */,
+				773D699AC9BBED6A9E980D9F /* UIView+WebCacheOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5650602EE08DB36031C2000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE5C117B4A3A9B682CEAAA0 /* Pods-KeenanHonda-Google-Mobile-Ads-SDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C78049AE575063A8E5993B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41708996874D83333F00AF39 /* AFHTTPRequestOperation.m in Sources */,
+				FC5802B509F7010E5AE2A831 /* AFHTTPRequestOperationManager.m in Sources */,
+				14026EFC51EC29545CD047D7 /* AFHTTPSessionManager.m in Sources */,
+				38360229D94EA360D04BB21E /* AFNetworkActivityIndicatorManager.m in Sources */,
+				AC4A3738713CE7EDB6DCF56B /* AFNetworkReachabilityManager.m in Sources */,
+				8EC3A1AD9D89518CB5093441 /* AFSecurityPolicy.m in Sources */,
+				2BB3EA2C60944E1A9BB9A372 /* AFURLConnectionOperation.m in Sources */,
+				9242B8A59D24B664E0DC13D9 /* AFURLRequestSerialization.m in Sources */,
+				AA07586E9F47198C25602244 /* AFURLResponseSerialization.m in Sources */,
+				FA32722188E7CBC51DD2A643 /* AFURLSessionManager.m in Sources */,
+				68D6F6280DC08D643EB7DB15 /* Pods-KeenanHonda-AFNetworking-dummy.m in Sources */,
+				533AAC5D34B6C89AF7BBA3A8 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				510454D7635979A9C0A12FBB /* UIAlertView+AFNetworking.m in Sources */,
+				55F147837E6630C35D297FF4 /* UIButton+AFNetworking.m in Sources */,
+				24E61DC48990853E0E507B7C /* UIImageView+AFNetworking.m in Sources */,
+				96BFF31F468D27DE49BF905C /* UIProgressView+AFNetworking.m in Sources */,
+				C3D65F844ACF428A5B8867E2 /* UIRefreshControl+AFNetworking.m in Sources */,
+				8F0CC3BD33BE4CAF07E207BE /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB73DF640D67BA1F7CECC586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA24570D745BA700746378B /* GTMNSString+HTML.m in Sources */,
+				DEE7F94E5307DA1715D5A424 /* MWFeedInfo.m in Sources */,
+				377DC2ECBE6BDB7BD0EEE8A4 /* MWFeedItem.m in Sources */,
+				FEA53A40C95D55182A463730 /* MWFeedParser.m in Sources */,
+				EA2B2F4F94F969317EAFF521 /* NSDate+InternetDateTime.m in Sources */,
+				796524C9AB3D4B1983444514 /* NSString+HTML.m in Sources */,
+				C8D13BE8253564A2E67705D2 /* Pods-KeenanHonda-MWFeedParser-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33362C2FC287DFE885704241 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KeenanHonda-MMDrawerController";
+			target = 33EC1E2E8C22A567DC20FD53 /* Pods-KeenanHonda-MMDrawerController */;
+			targetProxy = B7A429D7CF477A6A34C7FD0A /* PBXContainerItemProxy */;
+		};
+		5CCFA963B91D259861730BF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KeenanHonda-MMDrawerController";
+			target = 33EC1E2E8C22A567DC20FD53 /* Pods-KeenanHonda-MMDrawerController */;
+			targetProxy = 8A026CB769EAB87A9DB56D14 /* PBXContainerItemProxy */;
+		};
+		7B5E20ECCDEB96ED0A38D37A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KeenanHonda-MWFeedParser";
+			target = 140D90C7E27BFF489D8CE493 /* Pods-KeenanHonda-MWFeedParser */;
+			targetProxy = 2645ECA702A4DF40CD6682AA /* PBXContainerItemProxy */;
+		};
+		8331C8C1B046A19B24C3074A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KeenanHonda-CardIO";
+			target = 998C18669900FC5134D35397 /* Pods-KeenanHonda-CardIO */;
+			targetProxy = 379BAC28B098C78774DF2093 /* PBXContainerItemProxy */;
+		};
+		AE98084C0D491533CB839E72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KeenanHonda-SDWebImage";
+			target = 673B04AA3FD2C0033D374FDC /* Pods-KeenanHonda-SDWebImage */;
+			targetProxy = 2252EBA9A96A8D8DBEDE7054 /* PBXContainerItemProxy */;
+		};
+		DFFC43B21DE21406B4242D9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KeenanHonda-AFNetworking";
+			target = D1044A0853187F70A561ADC5 /* Pods-KeenanHonda-AFNetworking */;
+			targetProxy = 6E601DEA4BE069D3A4634A52 /* PBXContainerItemProxy */;
+		};
+		E9FD68C2E16AADC8014AD872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KeenanHonda-MMDrawerController-Storyboard";
+			target = 7B2CE1F753F12B29EEF1C6E9 /* Pods-KeenanHonda-MMDrawerController-Storyboard */;
+			targetProxy = 0A5112D9090D96B49A7BCA8A /* PBXContainerItemProxy */;
+		};
+		EF962574FB26280E3201AB90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KeenanHonda-Google-Mobile-Ads-SDK";
+			target = E5F668657D31B889FA1EA12D /* Pods-KeenanHonda-Google-Mobile-Ads-SDK */;
+			targetProxy = CC799C160C1DDD87FF84D27D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		022A54C265388594ABAB7C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D039D35C6B7E8E9B3E51E267 /* Pods-KeenanHonda-SDWebImage-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenanHonda-SDWebImage/Pods-KeenanHonda-SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		059757A60EC8C67DEFD2F8D6 /* Debug copy */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60E696B50C9A2F24DCB2FD32 /* Pods-KeenanHonda-CardIO-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenanHonda-CardIO/Pods-KeenanHonda-CardIO-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = "Debug copy";
+		};
+		1E05DECC37B0C2CF44CC280A /* Debug copy */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E86949A241FC2810B4574B2 /* Pods-KeenanHonda-MMDrawerController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenanHonda-MMDrawerController/Pods-KeenanHonda-MMDrawerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = "Debug copy";
+		};
+		327CDDDBF4EC400946273AA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7423739E3202268D1EC248A0 /* Pods-KeenanHonda.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		36C6647C162479B5C4B66124 /* Debug copy */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 829CF7048178654562C4F66B /* Pods-KeenanHonda-MMDrawerController-Storyboard-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenanHonda-MMDrawerController-Storyboard/Pods-KeenanHonda-MMDrawerController-Storyboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = "Debug copy";
+		};
+		3833B67419C74B1BC6359348 /* Debug copy */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD9075036EF105C1D6014DE /* Pods-KeenanHonda-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenanHonda-AFNetworking/Pods-KeenanHonda-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = "Debug copy";
+		};
+		39B1DFC1CFA95CE649F1B815 /* Debug copy */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9A8E9924088A76CB33D513C /* Pods-KeenanHonda.debug copy.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = "Debug copy";
+		};
+		39BB65504E1BA0EF353E6027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CCEAAED78CF8FD4CCDE7210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 829CF7048178654562C4F66B /* Pods-KeenanHonda-MMDrawerController-Storyboard-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenanHonda-MMDrawerController-Storyboard/Pods-KeenanHonda-MMDrawerController-Storyboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5533940F73DC261189679198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 829CF7048178654562C4F66B /* Pods-KeenanHonda-MMDrawerController-Storyboard-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenanHonda-MMDrawerController-Storyboard/Pods-KeenanHonda-MMDrawerController-Storyboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		590E3541C5E3EAC1B5168D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60E696B50C9A2F24DCB2FD32 /* Pods-KeenanHonda-CardIO-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenanHonda-CardIO/Pods-KeenanHonda-CardIO-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		72C60ADC7F7DDF1B5B6ADDED /* Debug copy */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE581109064A8C53206B27E /* Pods-KeenanHonda-MWFeedParser-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenanHonda-MWFeedParser/Pods-KeenanHonda-MWFeedParser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = "Debug copy";
+		};
+		754AC6D457618CD1E69CD873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E86949A241FC2810B4574B2 /* Pods-KeenanHonda-MMDrawerController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenanHonda-MMDrawerController/Pods-KeenanHonda-MMDrawerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7DFD872A66D1096B0D717F20 /* Debug copy */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D039D35C6B7E8E9B3E51E267 /* Pods-KeenanHonda-SDWebImage-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenanHonda-SDWebImage/Pods-KeenanHonda-SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = "Debug copy";
+		};
+		9E55F0EB335E925D5404EF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 913A04DAE722650E854F2BB0 /* Pods-KeenanHonda-Google-Mobile-Ads-SDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenanHonda-Google-Mobile-Ads-SDK/Pods-KeenanHonda-Google-Mobile-Ads-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A249E0677131CB2B53720BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 913A04DAE722650E854F2BB0 /* Pods-KeenanHonda-Google-Mobile-Ads-SDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenanHonda-Google-Mobile-Ads-SDK/Pods-KeenanHonda-Google-Mobile-Ads-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A4FB1206DADF0302AA7FBEA4 /* Debug copy */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 913A04DAE722650E854F2BB0 /* Pods-KeenanHonda-Google-Mobile-Ads-SDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenanHonda-Google-Mobile-Ads-SDK/Pods-KeenanHonda-Google-Mobile-Ads-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = "Debug copy";
+		};
+		A9C54D9773B4332B6BC8BCDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B3C6B555C796BC35E6613831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE581109064A8C53206B27E /* Pods-KeenanHonda-MWFeedParser-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenanHonda-MWFeedParser/Pods-KeenanHonda-MWFeedParser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C64303BD3A2E583FB9EA67E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C314C1EDDC900218623E6286 /* Pods-KeenanHonda.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EA995EC7AE8357D3F7415FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E86949A241FC2810B4574B2 /* Pods-KeenanHonda-MMDrawerController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenanHonda-MMDrawerController/Pods-KeenanHonda-MMDrawerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EEDFC4E1F913C2F0C51950FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE581109064A8C53206B27E /* Pods-KeenanHonda-MWFeedParser-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenanHonda-MWFeedParser/Pods-KeenanHonda-MWFeedParser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F197E8376E2D540D29B17F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD9075036EF105C1D6014DE /* Pods-KeenanHonda-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenanHonda-AFNetworking/Pods-KeenanHonda-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F323B3DDB58BA0240CE8133B /* Debug copy */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG_COPY=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Debug copy";
+		};
+		F55BBBE369F632E016A4AB13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD9075036EF105C1D6014DE /* Pods-KeenanHonda-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenanHonda-AFNetworking/Pods-KeenanHonda-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FBA720F68764A0CF7E195742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D039D35C6B7E8E9B3E51E267 /* Pods-KeenanHonda-SDWebImage-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenanHonda-SDWebImage/Pods-KeenanHonda-SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FE14FCA79B94BA6F437BCB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60E696B50C9A2F24DCB2FD32 /* Pods-KeenanHonda-CardIO-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeenanHonda-CardIO/Pods-KeenanHonda-CardIO-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B133404C8403B24BFD27B0A /* Build configuration list for PBXNativeTarget "Pods-KeenanHonda-Google-Mobile-Ads-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E55F0EB335E925D5404EF73 /* Debug */,
+				A4FB1206DADF0302AA7FBEA4 /* Debug copy */,
+				A249E0677131CB2B53720BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F291810D758E4EA5BDF0040 /* Build configuration list for PBXNativeTarget "Pods-KeenanHonda-MWFeedParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDFC4E1F913C2F0C51950FE /* Debug */,
+				72C60ADC7F7DDF1B5B6ADDED /* Debug copy */,
+				B3C6B555C796BC35E6613831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6511C0BC36CEFA361CDE1F0F /* Build configuration list for PBXNativeTarget "Pods-KeenanHonda-CardIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590E3541C5E3EAC1B5168D97 /* Debug */,
+				059757A60EC8C67DEFD2F8D6 /* Debug copy */,
+				FE14FCA79B94BA6F437BCB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D6E0289A64EFDFACEFB89BC /* Build configuration list for PBXNativeTarget "Pods-KeenanHonda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C64303BD3A2E583FB9EA67E7 /* Debug */,
+				39B1DFC1CFA95CE649F1B815 /* Debug copy */,
+				327CDDDBF4EC400946273AA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E63420E5EB519421F7104BC /* Build configuration list for PBXNativeTarget "Pods-KeenanHonda-MMDrawerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA995EC7AE8357D3F7415FEF /* Debug */,
+				1E05DECC37B0C2CF44CC280A /* Debug copy */,
+				754AC6D457618CD1E69CD873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74BAE2D4C3FABE5C552F2F13 /* Build configuration list for PBXNativeTarget "Pods-KeenanHonda-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55BBBE369F632E016A4AB13 /* Debug */,
+				3833B67419C74B1BC6359348 /* Debug copy */,
+				F197E8376E2D540D29B17F00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB01AE1ECC98C956C23211C /* Build configuration list for PBXNativeTarget "Pods-KeenanHonda-SDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				022A54C265388594ABAB7C1F /* Debug */,
+				7DFD872A66D1096B0D717F20 /* Debug copy */,
+				FBA720F68764A0CF7E195742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F9DC58ACD375800532AC0E2 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C54D9773B4332B6BC8BCDA /* Debug */,
+				F323B3DDB58BA0240CE8133B /* Debug copy */,
+				39BB65504E1BA0EF353E6027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A269D01B8AD86EA7C0A33759 /* Build configuration list for PBXNativeTarget "Pods-KeenanHonda-MMDrawerController-Storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5533940F73DC261189679198 /* Debug */,
+				36C6647C162479B5C4B66124 /* Debug copy */,
+				3CCEAAED78CF8FD4CCDE7210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD2724665F9814BBFB5F35DC /* Project object */;
+}

@@ -1,0 +1,351 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "937F79C3471C57B243862B54EF3730F1FC3E2B3A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6C7B36FE5634AB17C0A8B04250E695BAAD853CE6" : 0,
+    "BC04F3B9F2D33EF346A8FB79F9C85616A42CDE3F" : 0,
+    "D7FD837DE17FE82D6C0EA10BDD3C5EDE25457D4A" : 0,
+    "D37428864C2575C37C47B5A7051724A8208CA1D5" : 0,
+    "AC279E233287A25522BB6E629ED578827825B708" : 0,
+    "937F79C3471C57B243862B54EF3730F1FC3E2B3A" : 0,
+    "76451AFAFC1D915E8B00D1849A0840CF80DEBE71" : 0,
+    "C186CE97B9B4DEA5FC8A064E90120C5E63963B59" : 0,
+    "DFB98D52DA106892D59AFC5073E9E99460B278ED" : 0,
+    "B8EEFB8691D4FB325B727D6AB583FC7C3DE42916" : 0,
+    "2EB193664B33C5877B74FC7DAC6E16E141DF01BD" : 0,
+    "A76211900A90C967F55C7E6232D428724B264365" : 0,
+    "18050F2D54096FB392B6E350D462D540747AD64F" : 0,
+    "FA13327DCACB653793A8CA9AC729571C63368C02" : 0,
+    "8A252B9E57F25E99E36ACDB14D83A14DF91E1FAD" : 0,
+    "76D52B55E06F0A61A05BE951CB09740FB859BCC7" : 0,
+    "34EDEECE06F1A8F0D9B005C00440AC6EBD2E3FAA" : 0,
+    "03576C80997521F68BCC1BAE2B8D992669EA2E5A" : 0,
+    "F98F444647ABC057D4C561140EBC719DC6D62B37" : 0,
+    "34E3ABC09CE4D56DDA4B69DB8FDA507F33BEC9F3" : 0,
+    "42949F58856FC526E67511183A08FCF937BEA563" : 0,
+    "B2FB4B2B7736D0C3A22BC11E10E3365454037080" : 0,
+    "82E20381D193E3FE09DEB5A16E245CA846E045ED" : 0,
+    "FD4AE117D1159B41A919A41DF410C7F0745D2118" : 0,
+    "F83082AF5D8E4055FDB99B3084909B0F72E009FD" : 0,
+    "5B19840885FEB446976D732437E4F5EC33EB60E5" : 0,
+    "3358748CBF8D78307B0DFBE7249B79D3C245319D" : 0,
+    "24126ACF5B8642BC21F0318086D6E096567E23DC" : 0,
+    "B65AE594F7E4006CF3F771ADB1C85FF4D74D9AAA" : 0,
+    "AA189149C420FEF786BD6CD9697B8C3E87B1FB0E" : 0,
+    "EC067C3A7A2A1724FA17C417C2FF8BF81B707E38" : 0,
+    "64A9FFFD104660EB9BD667DD181120C3282363AD" : 0,
+    "C0C15244DDB4725262A82EB087256E53D189C7E6" : 0,
+    "27058E351C06B86DD71DC07F8C127C8287C0C986" : 0,
+    "810F8A0A314C88FED81404E87A0E4F481C3B7FBF" : 0,
+    "FD7FE5311A132DD170D97D44BA8F1A643CCCCA4B" : 0,
+    "6CC8AB1997AC1E3121ACA446701EAF60FB4651A7" : 0,
+    "2B62B4ED37CF7D5A5C950912FF4F02CE6C16DC06" : 0,
+    "7F064579AFBDE6755EEFE124E8DFE80352B223A5" : 0,
+    "A865A9AD89AC06A38078962F1800B0E5454D40E8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AA630231-AC6E-4D82-B358-15982A2EB9A4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6C7B36FE5634AB17C0A8B04250E695BAAD853CE6" : "cota-track-day-app\/",
+    "BC04F3B9F2D33EF346A8FB79F9C85616A42CDE3F" : "CarriePhoto\/",
+    "D7FD837DE17FE82D6C0EA10BDD3C5EDE25457D4A" : "Renegade\/RenegadeHD\/",
+    "D37428864C2575C37C47B5A7051724A8208CA1D5" : "Renegade\/HarleyCoolSprings\/coolspringsapp\/",
+    "AC279E233287A25522BB6E629ED578827825B708" : "HarleyDemoRegistration\/",
+    "937F79C3471C57B243862B54EF3730F1FC3E2B3A" : "honda-keenan",
+    "76451AFAFC1D915E8B00D1849A0840CF80DEBE71" : "HondaTrackside\/",
+    "C186CE97B9B4DEA5FC8A064E90120C5E63963B59" : "Kickstart-Monitor%20Apps\/SuzukiMonitor\/",
+    "DFB98D52DA106892D59AFC5073E9E99460B278ED" : "KawasakiAuto\/",
+    "B8EEFB8691D4FB325B727D6AB583FC7C3DE42916" : "nctdashboardapp\/",
+    "2EB193664B33C5877B74FC7DAC6E16E141DF01BD" : "MMReload\/MMReload\/",
+    "A76211900A90C967F55C7E6232D428724B264365" : "kawasaki-lite\/",
+    "18050F2D54096FB392B6E350D462D540747AD64F" : "POSHH\/MMReload\/",
+    "FA13327DCACB653793A8CA9AC729571C63368C02" : "Renegade\/SmokinHD\/",
+    "8A252B9E57F25E99E36ACDB14D83A14DF91E1FAD" : "mobilemoney\/",
+    "76D52B55E06F0A61A05BE951CB09740FB859BCC7" : "YamahaLiteDirt\/",
+    "34EDEECE06F1A8F0D9B005C00440AC6EBD2E3FAA" : "RZRLite\/",
+    "03576C80997521F68BCC1BAE2B8D992669EA2E5A" : "nCloudStats\/",
+    "F98F444647ABC057D4C561140EBC719DC6D62B37" : "MatchAction-Star\/",
+    "34E3ABC09CE4D56DDA4B69DB8FDA507F33BEC9F3" : "NCT%20LeadGen\/",
+    "42949F58856FC526E67511183A08FCF937BEA563" : "HondaLite\/",
+    "B2FB4B2B7736D0C3A22BC11E10E3365454037080" : "COTA-Lite\/",
+    "82E20381D193E3FE09DEB5A16E245CA846E045ED" : "FLY%20Racing\/",
+    "FD4AE117D1159B41A919A41DF410C7F0745D2118" : "YamahaAuto\/",
+    "F83082AF5D8E4055FDB99B3084909B0F72E009FD" : "YamahaLite\/",
+    "5B19840885FEB446976D732437E4F5EC33EB60E5" : "YamahaLiteRV\/",
+    "3358748CBF8D78307B0DFBE7249B79D3C245319D" : "nctcustomerapp\/",
+    "24126ACF5B8642BC21F0318086D6E096567E23DC" : "MatchAction-Yamaha\/",
+    "B65AE594F7E4006CF3F771ADB1C85FF4D74D9AAA" : "Carnie\/MMReload\/",
+    "AA189149C420FEF786BD6CD9697B8C3E87B1FB0E" : "AssetTracker\/NCAssetTrac\/",
+    "EC067C3A7A2A1724FA17C417C2FF8BF81B707E38" : "AssetTracker\/HarleyTracker\/",
+    "64A9FFFD104660EB9BD667DD181120C3282363AD" : "infiniti-riverside\/",
+    "C0C15244DDB4725262A82EB087256E53D189C7E6" : "Renegade\/NewOrleansHD\/",
+    "27058E351C06B86DD71DC07F8C127C8287C0C986" : "KickStartVideoYamaha\/",
+    "810F8A0A314C88FED81404E87A0E4F481C3B7FBF" : "harleystatusmonitor\/",
+    "FD7FE5311A132DD170D97D44BA8F1A643CCCCA4B" : "HondaAuto\/",
+    "6CC8AB1997AC1E3121ACA446701EAF60FB4651A7" : "honda-post-ride-survey\/",
+    "2B62B4ED37CF7D5A5C950912FF4F02CE6C16DC06" : "CashlessHistory\/MMReload\/",
+    "7F064579AFBDE6755EEFE124E8DFE80352B223A5" : "KMC%20Kash\/",
+    "A865A9AD89AC06A38078962F1800B0E5454D40E8" : "YamahaAutoRV\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "KeenanHonda",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "KeenanHonda.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/iosncompasstrac\/nctcloudstats.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "03576C80997521F68BCC1BAE2B8D992669EA2E5A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioscashless\/cashlesspos-mobile.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "18050F2D54096FB392B6E350D462D540747AD64F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/matchaction-yamaha.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "24126ACF5B8642BC21F0318086D6E096567E23DC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/yamaha-video-app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "27058E351C06B86DD71DC07F8C127C8287C0C986"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioscashless\/cashlesshistory.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2B62B4ED37CF7D5A5C950912FF4F02CE6C16DC06"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioscashless\/cashlessloader.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2EB193664B33C5877B74FC7DAC6E16E141DF01BD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/iosncompasstrac\/mb-foothill.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3358748CBF8D78307B0DFBE7249B79D3C245319D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/iosncompasstrac\/mb-fresno.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3358748CBF8D78307B0DFBE7249B79D3C245319D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/iosncompasstrac\/mb-laguna-niguel.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3358748CBF8D78307B0DFBE7249B79D3C245319D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/iosncompasstrac\/mb-oklahoma-city.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3358748CBF8D78307B0DFBE7249B79D3C245319D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/iosncompasstrac\/mb-willsonville.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3358748CBF8D78307B0DFBE7249B79D3C245319D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/iosncompasstrac\/nctcustomerapp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3358748CBF8D78307B0DFBE7249B79D3C245319D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/iosncompasstrac\/nct-lead-gen.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "34E3ABC09CE4D56DDA4B69DB8FDA507F33BEC9F3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/polaris-rzr-lite.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "34EDEECE06F1A8F0D9B005C00440AC6EBD2E3FAA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/honda-farm-lite.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "42949F58856FC526E67511183A08FCF937BEA563"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/honda-lite.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "42949F58856FC526E67511183A08FCF937BEA563"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/yamaha-lite-rv.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5B19840885FEB446976D732437E4F5EC33EB60E5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/iosncompasstrac\/infiniti-riverside.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "64A9FFFD104660EB9BD667DD181120C3282363AD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/iosncompasstrac\/cota-track-day-app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6C7B36FE5634AB17C0A8B04250E695BAAD853CE6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/honda-post-ride-survey.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6CC8AB1997AC1E3121ACA446701EAF60FB4651A7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/honda-trackside.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "76451AFAFC1D915E8B00D1849A0840CF80DEBE71"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/yamaha-lite-dirt.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "76D52B55E06F0A61A05BE951CB09740FB859BCC7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskawasaki\/kmc-kash.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7F064579AFBDE6755EEFE124E8DFE80352B223A5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/iosharleydavidson\/harleystatusmonitor.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "810F8A0A314C88FED81404E87A0E4F481C3B7FBF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/fly-racing.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "82E20381D193E3FE09DEB5A16E245CA846E045ED"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioscashless\/cashlesspos-ipad.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8A252B9E57F25E99E36ACDB14D83A14DF91E1FAD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/iosncompasstrac\/honda-keenan.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "937F79C3471C57B243862B54EF3730F1FC3E2B3A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskawasaki\/kawasaki-lite.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A76211900A90C967F55C7E6232D428724B264365"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/yamaha-auto-rv.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A865A9AD89AC06A38078962F1800B0E5454D40E8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/iosncompasstrac\/nctassettracker.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AA189149C420FEF786BD6CD9697B8C3E87B1FB0E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/iosharleydavidson\/harleydemoregistration.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AC279E233287A25522BB6E629ED578827825B708"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/iosmkt\/cota-lite.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B2FB4B2B7736D0C3A22BC11E10E3365454037080"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioscashless\/cashlesscarnival.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B65AE594F7E4006CF3F771ADB1C85FF4D74D9AAA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/iosncompasstrac\/nctdashboardapp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B8EEFB8691D4FB325B727D6AB583FC7C3DE42916"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/honda-photo-app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BC04F3B9F2D33EF346A8FB79F9C85616A42CDE3F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/iosharleyrenegade\/new-orleans.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C0C15244DDB4725262A82EB087256E53D189C7E6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/kawasaki-monitor.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C186CE97B9B4DEA5FC8A064E90120C5E63963B59"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/polariskickstartmonitor.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C186CE97B9B4DEA5FC8A064E90120C5E63963B59"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/yamahakickstartmonitor.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C186CE97B9B4DEA5FC8A064E90120C5E63963B59"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/yamahakickstartmonitor.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C186CE97B9B4DEA5FC8A064E90120C5E63963B59"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/yamahakickstartmonitor.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C186CE97B9B4DEA5FC8A064E90120C5E63963B59"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/iosharleyrenegade\/coolspringsapp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D37428864C2575C37C47B5A7051724A8208CA1D5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/iosharleyrenegade\/renegade.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D7FD837DE17FE82D6C0EA10BDD3C5EDE25457D4A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/kawasaki-auto.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DFB98D52DA106892D59AFC5073E9E99460B278ED"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/iosharleydavidson\/harleyassettracker.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EC067C3A7A2A1724FA17C417C2FF8BF81B707E38"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/honda-roller-app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F83082AF5D8E4055FDB99B3084909B0F72E009FD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/yamaha-lite.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F83082AF5D8E4055FDB99B3084909B0F72E009FD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/matchaction-star.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F98F444647ABC057D4C561140EBC719DC6D62B37"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/iosharleyrenegade\/smokin.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FA13327DCACB653793A8CA9AC729571C63368C02"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/yamaha-auto.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD4AE117D1159B41A919A41DF410C7F0745D2118"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ioskickstart\/honda-auto-demo-registration.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD7FE5311A132DD170D97D44BA8F1A643CCCCA4B"
+    }
+  ]
+}

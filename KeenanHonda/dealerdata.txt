@@ -1,0 +1,94 @@
+<dealername>Mercedes-Benz of Wilsonville</dealername>
+<dealer1>
+  <dname>Mercedes-Benz of Wilsonville</dname>
+  <dtagline>Experience Our Hospitality</dtagline>
+  <address1>25035 SW Parkway Avenue</address1>
+  <address2></address2>
+  <city>Wilsonville</city>
+  <state>OR</state>
+  <zip>97070</zip>
+  <phone>503-454-5000</phone>
+  <fax>503-454-5013</fax>
+  <email>customer@mbwil.com</email>
+<website>www.mercedesbenzwilsonville.com</website>
+  <makeapptwebsite>http://www.mercedesbenzwilsonville.com/service/index.htm</makeapptwebsite>
+  <makeapptwebsiteporsche></makeapptwebsiteporsche>
+  <contactwebsite>http://www.mercedesbenzwilsonville.com/contact.htm</contactwebsite>
+  <testimonialwebsite>http://www.mercedesbenzwilsonville.com/test.htm</testimonialwebsite>
+<reputationwebsite>http://reviewmercedesbenzwilsonville.com/</reputationwebsite>
+  <historywebsite></historywebsite>
+  <employmentwebsite></employmentwebsite>
+  <roadsidephone>1-888-454-9907</roadsidephone>
+  <roadsidephoneporsche></roadsidephoneporsche>
+  <carwashphone></carwashphone>
+  <carwashdays></carwashdays>
+  <carwashhours></carwashhours>
+  <newsalesphone>503-454-5000</newsalesphone>
+  <newsalesemail>sales@mbwil.com</newsalesemail>
+  <newsalesinventory>http://www.mercedesbenzwilsonville.com/new-inventory/index.htm</newsalesinventory>
+  <newsalesinventoryporsche></newsalesinventoryporsche>
+  <newsalesinventorysprinter></newsalesinventorysprinter>
+  <newsalesinventorysmart></newsalesinventorysmart>
+  <newsalesspecials>http://www.mercedesbenzwilsonville.com/featured-vehicles/new.htm</newsalesspecials>
+  <newsaleshours>M-F 8-7, Sat 9-7, Sun 10-6</newsaleshours>
+<newsalesdays>M-F 8-7, Sat 9-7, Sun 10-6</newsalesdays>
+  <preownedphone>503-454-5000</preownedphone>
+  <preownedemail>sales@mbwil.com</preownedemail>
+  <preownedinventory>http://www.mercedesbenzwilsonville.com/used-inventory/index.htm</preownedinventory>
+ <preownedinventoryporsche></preownedinventoryporsche>
+  <preownedspecials></preownedspecials>
+  <preownedhours>M-F 8-7, Sat 9-7, Sun 10-6</preownedhours>
+  <preowneddays>M-F 8-7, Sat 9-7, Sun 10-6</preowneddays>
+  <servicephone>503-454-5000</servicephone>
+  <serviceemail>service@mbwil.com</serviceemail>
+<servicedays>M-F 7-6, Sat 9-5, Sun Closed</servicedays>
+  <servicespecials>http://www.mercedesbenzwilsonville.com/specials/service.htm</servicespecials>
+  <servicehours>M-F 7-6, Sat 9-5, Sun Closed</servicehours>
+  <servicehoursporsche></servicehoursporsche>
+  <servicehourssprinter></servicehourssprinter>
+  <servicehourssmart></servicehourssmart>
+  <partsphone>503-454-5002</partsphone>
+  <partsfax> </partsfax>;
+  <partsemail>parts@mbwil.com</partsemail>
+  <partshours>M-F 7-6, Sat 9-5, Sun Closed</partshours>
+  <partsdays>M-F 7-6, Sat 9-5, Sun Closed</partsdays>
+  <partsdaysmercedes></partsdaysmercedes>
+  <partsdayssprinter></partsdayssprinter>
+  <partsdayssmart></partsdayssmart>
+  <partsspecials>http://www.mercedesbenzwilsonville.com/specials/service.htm</partsspecials>
+  <kbbwebsite> </kbbwebsite>
+  <financialwebsite>http://www.mercedesbenzwilsonville.com/financing/index.htm</financialwebsite>
+  <loanwebsite> </loanwebsite>
+  <sprinterinventory1> </sprinterinventory1>
+  <sprinterinventory2> </sprinterinventory2>
+  <misc1> </misc1>
+  <misc2> </misc2>
+  <misc3> </misc3>
+  <misc4> </misc4>
+  <misc5> </misc5>
+  <tp1>32</tp1>
+  <tp2>32</tp2>
+  <tp3>32</tp3>
+  <tp4>32</tp4>
+  <newsletter></newsletter>
+<facebook>https://www.facebook.com/MBofWilsonville</facebook>
+<twitter>https://twitter.com/MBofWilsonville</twitter>
+<youtube>https://www.youtube.com/user/MbofWilsonville</youtube>
+ <ebay></ebay>
+ <yelp>http://www.yelp.com/biz/mercedes-benz-of-wilsonville-wilsonville-2</yelp>
+ <aboutuswebsite> </aboutuswebsite>
+ <notes> </notes>
+ <benefitswebsite></benefitswebsite>
+ <directionswebsite>http://www.mercedesbenzwilsonville.com/dealership/directions.htm</directionswebsite>
+ <directionswebsiteporsche></directionswebsiteporsche>
+ 
+ <smartinventory1> </smartinventory1>
+ <smartinventory2> </smartinventory2>
+ <rewards>http://ncompassmkt.com/myrewards.aspx</rewards>
+</dealer1>
+<dealer2>
+</dealer2>
+<dealer3>
+</dealer3>
+<dealer4>
+</dealer4>

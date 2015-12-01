@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "937F79C3471C57B243862B54EF3730F1FC3E2B3A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "937F79C3471C57B243862B54EF3730F1FC3E2B3A" : 0,
+    "94D238EA872FED84B003F8ACB38B6481C4894B00" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E16E7536-4CBA-4A27-8870-459FDF4B1A25",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "937F79C3471C57B243862B54EF3730F1FC3E2B3A" : "nct-dealer-app\/",
+    "94D238EA872FED84B003F8ACB38B6481C4894B00" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NcompassDealerApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NcompassDealerApp.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/iosncompasstrac\/nct-dealer-app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "937F79C3471C57B243862B54EF3730F1FC3E2B3A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/gigaparsetechnologiesinc\/alwayz2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "94D238EA872FED84B003F8ACB38B6481C4894B00"
+    }
+  ]
+}
