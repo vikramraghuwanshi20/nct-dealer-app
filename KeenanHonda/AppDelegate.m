@@ -51,8 +51,8 @@
     [[UINavigationBar appearance] setBackgroundColor:[UIColor blackColor]];
     
     GlobalStuff *g = [GlobalStuff sharedManager];
-    g.dd.nDealerNumber = 0;
-    [g.dd LoadDealerInfo];
+    //g.dd.nDealerNumber = 0;
+    //[g.dd LoadDealerInfo];
     
     self.currentCustomer = [[oRewards alloc] init];
     [self.currentCustomer LoadInfo];

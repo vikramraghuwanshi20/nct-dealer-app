@@ -89,10 +89,7 @@
 		ACEDD6C21AF2D7CD0076C6A4 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = ACEDD6C11AF2D7CD0076C6A4 /* about.png */; };
 		ACEDD6C41AF2D9C90076C6A4 /* transparent honda.gif in Resources */ = {isa = PBXBuildFile; fileRef = ACEDD6C31AF2D9C90076C6A4 /* transparent honda.gif */; };
 		ACFC444C1C0880A000856457 /* PhotoSave.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFC444B1C0880A000856457 /* PhotoSave.m */; settings = {ASSET_TAGS = (); }; };
-		ACFC44531C08825600856457 /* dealerdata.txt in Resources */ = {isa = PBXBuildFile; fileRef = ACFC444E1C08825600856457 /* dealerdata.txt */; settings = {ASSET_TAGS = (); }; };
-		ACFC44541C08825600856457 /* oDealerData.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFC44501C08825600856457 /* oDealerData.m */; settings = {ASSET_TAGS = (); }; };
 		ACFC44551C08825600856457 /* GlobalStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFC44521C08825600856457 /* GlobalStuff.m */; settings = {ASSET_TAGS = (); }; };
-		ACFC44581C08832300856457 /* iRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFC44571C08832300856457 /* iRecord.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +106,7 @@
 		04722D201B7E03530029271B /*  */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ""; sourceTree = SOURCE_ROOT; };
 		6E1CC3DA1C0D94E600DF0FBA /* btnPhotoTake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnPhotoTake.png; sourceTree = "<group>"; };
 		6E1CC3DC1C0D94F700DF0FBA /* btnPhotoView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnPhotoView.png; sourceTree = "<group>"; };
+		6E82B02D1C0ED88B004BB81F /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
 		6EA940B61C082BA900C50934 /* CameraIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CameraIcon.png; sourceTree = "<group>"; };
 		6EA940B81C082BA900C50934 /* Schdule-Service.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Schdule-Service.png"; sourceTree = "<group>"; };
 		6EA940B91C082BA900C50934 /* TrafficIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrafficIcon.png; sourceTree = "<group>"; };
@@ -227,14 +225,8 @@
 		ACEDD6C31AF2D9C90076C6A4 /* transparent honda.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "transparent honda.gif"; sourceTree = "<group>"; };
 		ACFC444A1C0880A000856457 /* PhotoSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSave.h; sourceTree = "<group>"; };
 		ACFC444B1C0880A000856457 /* PhotoSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSave.m; sourceTree = "<group>"; };
-		ACFC444D1C0880E200856457 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
-		ACFC444E1C08825600856457 /* dealerdata.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dealerdata.txt; sourceTree = "<group>"; };
-		ACFC444F1C08825600856457 /* oDealerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oDealerData.h; sourceTree = "<group>"; };
-		ACFC44501C08825600856457 /* oDealerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oDealerData.m; sourceTree = "<group>"; };
 		ACFC44511C08825600856457 /* GlobalStuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalStuff.h; sourceTree = "<group>"; };
 		ACFC44521C08825600856457 /* GlobalStuff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalStuff.m; sourceTree = "<group>"; };
-		ACFC44561C08832300856457 /* iRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRecord.h; sourceTree = "<group>"; };
-		ACFC44571C08832300856457 /* iRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRecord.m; sourceTree = "<group>"; };
 		B81279E0DB00517494E3B9D8 /* libPods-KeenanHonda.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KeenanHonda.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E00B40EE60E0009D521210A0 /* Pods-KeenanHonda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeenanHonda.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeenanHonda/Pods-KeenanHonda.release.xcconfig"; sourceTree = "<group>"; };
 		F2F3D586A7BDBE96CE238E57 /* Pods-KeenanHonda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeenanHonda.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KeenanHonda/Pods-KeenanHonda.debug.xcconfig"; sourceTree = "<group>"; };
@@ -562,14 +554,9 @@
 		ACFC44491C08807600856457 /* PhotoCabinate */ = {
 			isa = PBXGroup;
 			children = (
-				ACFC444E1C08825600856457 /* dealerdata.txt */,
-				ACFC44561C08832300856457 /* iRecord.h */,
-				ACFC44571C08832300856457 /* iRecord.m */,
-				ACFC444F1C08825600856457 /* oDealerData.h */,
-				ACFC44501C08825600856457 /* oDealerData.m */,
+				6E82B02D1C0ED88B004BB81F /* common.h */,
 				ACFC44511C08825600856457 /* GlobalStuff.h */,
 				ACFC44521C08825600856457 /* GlobalStuff.m */,
-				ACFC444D1C0880E200856457 /* common.h */,
 				ACFC444A1C0880A000856457 /* PhotoSave.h */,
 				ACFC444B1C0880A000856457 /* PhotoSave.m */,
 			);
@@ -662,7 +649,6 @@
 			files = (
 				ACEDD6B51AF2D45A0076C6A4 /* phone.png in Resources */,
 				ACEDD6BF1AF2D49A0076C6A4 /* nav_icon.png in Resources */,
-				ACFC44531C08825600856457 /* dealerdata.txt in Resources */,
 				6EDBFB101C0C6F9F003169D5 /* MainBackground4.png in Resources */,
 				AC73CFA21AE8D0D50056FC6D /* 004.png in Resources */,
 				6E1CC3DB1C0D94E600DF0FBA /* btnPhotoTake.png in Resources */,
@@ -768,7 +754,6 @@
 				AC4F2EDF1AEE10B100A5DFB9 /* TableController.m in Sources */,
 				AC071BF91AF38E9700C2E484 /* oRewards.m in Sources */,
 				AC732B401AEA1A43003D2309 /* SettingController.m in Sources */,
-				ACFC44581C08832300856457 /* iRecord.m in Sources */,
 				AC8DEFC11AE682E5004FB806 /* XMLDictionary.m in Sources */,
 				AC4F2EE21AEE375F00A5DFB9 /* CustomCell.m in Sources */,
 				AC3EB11A1AED382E0042A7CE /* MainViewCell.m in Sources */,
@@ -787,7 +772,6 @@
 				AC071BEF1AF379E100C2E484 /* Reachability.m in Sources */,
 				AC6C712D1ADFBA75007EA56C /* main.m in Sources */,
 				AC4CC1A01AE27A43000166EF /* WebViewController.m in Sources */,
-				ACFC44541C08825600856457 /* oDealerData.m in Sources */,
 				AC6BB6AB1BFD1CF3001E9AE4 /* LeftViewController.m in Sources */,
 				AC732B461AEA2EFF003D2309 /* SetNotification.m in Sources */,
 				AC5784351AEEDE3800DB35A8 /* CustomPayCell.m in Sources */,

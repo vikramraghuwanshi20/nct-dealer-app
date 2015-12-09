@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
-
+#import "globals.h"
+#import "GlobalStuff.h"
 
 //#define POWERED_BY @"http://www.dashyapps.com"
 #define POWERED_BY @"http://www.ncompassmarketing.com"
@@ -28,7 +29,7 @@ enum LOST_BY {
 #define PADDLE_SQUARE @"square"
 	
 
-@interface globals : NSObject 
+@interface globals : NSObject
 {
 	
 

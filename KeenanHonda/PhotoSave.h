@@ -21,13 +21,15 @@
     MBProgressHUD *hud;
     BOOL ifImageView;
 }
-@property (retain, nonatomic) IBOutlet UIImageView *imgPhotoFullView;
+
 @property (retain, nonatomic) IBOutlet UIView *viewFullPhoto;
 @property (retain, nonatomic) FirstViewController *mview;
-@property (retain, nonatomic) IBOutlet UIImageView *imgPhoto;
+
 @property (retain, nonatomic) NSString *strPhotoName;
 @property (nonatomic, strong) UIView *mainView;
 @property (nonatomic,retain)  IBOutlet UILabel*PhotoDetail;
+@property (retain, nonatomic) IBOutlet UIImageView *imgPhoto;
+@property (retain, nonatomic) IBOutlet UIImageView *imgPhotoFullView;
 @property (retain, nonatomic) IBOutlet UIImageView *imgInsurance;
 @property (retain, nonatomic) IBOutlet UIImageView *imgDrivers;
 @property (retain, nonatomic) IBOutlet UIImageView *imgLicensePlate;
@@ -47,7 +49,6 @@
 - (IBAction)SaveLicensePlate:(id)sender;
 - (IBAction)SaveDriversLicense:(id)sender;
 - (IBAction)SaveInsuraceCardClick:(id)sender;
-
 - (IBAction)BackClick:(id)sender ;
 - (IBAction)CloseFullViewClick:(id)sender;
 - (IBAction)Backbuttonclicked:(UIBarButtonItem *)sender;

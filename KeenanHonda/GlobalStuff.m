@@ -15,7 +15,7 @@ static GlobalStuff *sharedGlobalStuff = nil;
 
 @implementation GlobalStuff
 
-@synthesize website,usrDef,aTerminalItems,aButtons,sServerAddress,aHistory,sBarcode,nScanType,alert,alertwaiting,gAppData,nPageToGoTo,dd;
+@synthesize website,usrDef,aTerminalItems,aButtons,sServerAddress,aHistory,sBarcode,nScanType,alert,alertwaiting,gAppData,nPageToGoTo;
 
 #pragma mark Singleton Methods
 
@@ -44,7 +44,7 @@ static GlobalStuff *sharedGlobalStuff = nil;
         }
         sBarcode = nil;
         nScanType = SCANTYPE_CARDNUMBER;
-        dd = [[ oDealerData alloc] init];
+       // dd = [[ oDealerData alloc] init];
         
         
     }
@@ -52,11 +52,11 @@ static GlobalStuff *sharedGlobalStuff = nil;
 }
 
 
--(void)ClearBarcode
-{
-    self.sBarcode = nil;
-    
-}
+//-(void)ClearBarcode
+//{
+//    self.sBarcode = nil;
+//    
+//}
 
 -(void)SaveSettings
 {

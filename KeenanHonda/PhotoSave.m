@@ -24,8 +24,13 @@
 @synthesize viewFullPhoto;
 @synthesize imgPhoto,strPhotoName,mview,PhotoDetail;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
+
+
+#pragma mark
+#pragma mark - View lifecycle
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
+    
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         ifImageView =  NO;
@@ -33,22 +38,9 @@
     }
     return self;
 }
-//-(UIBarPosition)positionForBar:(id<UIBarPositioning>)bar
-//{
-//    return UIBarPositionTopAttached;
-//}
-- (void)didReceiveMemoryWarning
-{
-    // Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
+
+- (void)viewDidLoad{
     
-    // Release any cached data, images, etc that aren't in use.
-}
-
-#pragma mark - View lifecycle
-
-- (void)viewDidLoad
-{
     [super viewDidLoad];
     viewFullPhoto.center = CGPointMake(160, 830);
     [self.view bringSubviewToFront:viewFullPhoto];
@@ -56,25 +48,10 @@
     self.viewFullPhoto.hidden=YES;
 }
 
-
--(void)LoadImages
-{
-    imgInsurance.image = [globals LoadPhotoFromDisk:FILE_INSURANCE];
+- (void)viewDidUnload{
     
-    imgDrivers.image = [globals LoadPhotoFromDisk:FILE_DRIVERSLICENSE];
-    
-    imgLicensePlate.image = [globals LoadPhotoFromDisk:FILE_LICENSEPLATE];
-    
-    imgParkingSpot.image = [globals LoadPhotoFromDisk:FILE_PARKINGSPOT];
-}
-
-- (void)viewDidUnload
-{
     [self setImgPhoto:nil];
-   
     strPhotoName = nil;
-    
-    
     [self setImgPhotoFullView:nil];
     [self setViewFullPhoto:nil];
     [self setImgInsurance:nil];
@@ -87,201 +64,109 @@
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
     
-	sv.maximumZoomScale = 4.0;
-	sv.minimumZoomScale = 0.75;
-	sv.clipsToBounds = YES;
-	sv.zoomScale = 0.5;
-    
-    
+    sv.maximumZoomScale = 4.0;
+    sv.minimumZoomScale = 0.75;
+    sv.clipsToBounds = YES;
+    sv.zoomScale = 0.5;
 }
 
 
-//- (IBAction)BackClick:(id)sender 
-//{
-//   
-//    CreateDelegate();
-//    
-//    [mview viewDidAppear:TRUE];
-//   
-//    [self dismissViewControllerAnimated:YES completion:nil];
-////    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
-//
-//    
-//}
-
-- (IBAction)CloseFullViewClick:(id)sender 
-{
-    CreateDelegate();
-    [UIView beginAnimations:nil context:nil];
-    [UIView setAnimationDuration:0.5];
-    viewFullPhoto.center = CGPointMake(160, 830);    
-   
-    [UIView commitAnimations];
-
+-(void)LoadImages{
+    imgInsurance.image = [globals LoadPhotoFromDisk:FILE_INSURANCE];
     
-}
-
-- (IBAction)Backbuttonclicked:(UIBarButtonItem *)sender {
+    imgDrivers.image = [globals LoadPhotoFromDisk:FILE_DRIVERSLICENSE];
     
-    if (ifImageView) {
-        viewFullPhoto.hidden = YES;
-        PhotoDetail.hidden=NO;
-        ifImageView = NO;
-    }else{
-    CreateDelegate();
+    imgLicensePlate.image = [globals LoadPhotoFromDisk:FILE_LICENSEPLATE];
     
-    [mview viewDidAppear:TRUE];
-    
-    [self dismissViewControllerAnimated:YES completion:nil];
-    }
-}
-
-
--(void)ShowFullView
-{
-    ifImageView = YES;
-    CreateDelegate();
-    [UIView beginAnimations:nil context:nil];
-    [UIView setAnimationDuration:0.5];
-    viewFullPhoto.center = CGPointMake(190, 270);
-    
-    [UIView commitAnimations];
-   
+    imgParkingSpot.image = [globals LoadPhotoFromDisk:FILE_PARKINGSPOT];
 }
 
 
 
-
-
-
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation{
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (IBAction)SaveInsuraceCardClick:(id)sender 
-{
-    GlobalStuff *g=[GlobalStuff sharedManager];
-    
-    if(![UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera])
-    {
-        [g ShowMessageBox:@"The camera option is not available on this device!" title:@"Sorry"];
-        return;
-    }
+#pragma mark -
+#pragma mark Button Action
 
-    strPhotoName = FILE_INSURANCE;
-    UIImagePickerController *picker = [[UIImagePickerController alloc] init];
-	picker.delegate = self;
-    picker.sourceType = UIImagePickerControllerSourceTypeCamera;
-    [self presentViewController:picker animated:YES completion:nil];
-
-}
-
-- (IBAction)ViewInsuranceCardClick:(id)sender 
-{
-    self.navigationController.navigationBarHidden=YES;
-    viewFullPhoto.hidden=NO;
-    PhotoDetail.hidden=YES;
-    strPhotoName = FILE_INSURANCE;
-    imgPhotoFullView.image = [globals LoadPhotoFromDisk:strPhotoName];
-    imgInsurance.image = imgPhotoFullView.image;
-
-    [self FixScrollView];
-    [self ShowFullView];
-}
-
-
-- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)image editingInfo:(NSDictionary *)editingInfo
-{
-	
-    [globals SavePhotoToDisk:image filename:strPhotoName];
-	[self LoadImages];
-    [picker dismissModalViewControllerAnimated:YES];
-    	
-	
-}
-
-//- (UIImage*)imageWithImage:(UIImage*)image scaledToSize:(CGSize)newSize
-//{
-//	UIGraphicsBeginImageContext( newSize );
-//	[image drawInRect:CGRectMake(0,0,newSize.width,newSize.height)];
-//	UIImage* newImage = UIGraphicsGetImageFromCurrentImageContext();
-//	UIGraphicsEndImageContext();
-//	
-//	return newImage;
-//}
-
-
-
-- (IBAction)SaveDriversLicense:(id)sender 
+- (IBAction)ViewDriversLicense:(id)sender
 {
     
-    GlobalStuff *g=[GlobalStuff sharedManager];
-    
-    if(![UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera])
-    {
-        [g ShowMessageBox:@"The camera option is not available on this device!" title:@"Sorry"];
-
-        return;
-    }
-    
-    strPhotoName = FILE_DRIVERSLICENSE;
-    UIImagePickerController *picker = [[UIImagePickerController alloc] init];
-	picker.delegate = self;
-    picker.sourceType = UIImagePickerControllerSourceTypeCamera;
-    [self presentViewController:picker animated:YES completion:nil];
-
-    
-}
-
-- (IBAction)ViewDriversLicense:(id)sender 
-{
-    self.navigationController.navigationBarHidden=YES;
     viewFullPhoto.hidden=NO;
     PhotoDetail.hidden=YES;
     strPhotoName = FILE_DRIVERSLICENSE;
+    self.navigationController.navigationBarHidden=YES;
     imgPhotoFullView.image = [globals LoadPhotoFromDisk:strPhotoName];
     imgDrivers.image = imgPhotoFullView.image;
-
+    
     [self FixScrollView];
     [self ShowFullView];
-
+    
 }
 
+- (IBAction)ViewInsuranceCardClick:(id)sender {
+    
+    viewFullPhoto.hidden=NO;
+    PhotoDetail.hidden=YES;
+    strPhotoName = FILE_INSURANCE;
+    self.navigationController.navigationBarHidden=YES;
+    imgPhotoFullView.image = [globals LoadPhotoFromDisk:strPhotoName];
+    imgInsurance.image = imgPhotoFullView.image;
+    
+    [self FixScrollView];
+    [self ShowFullView];
+}
 
 - (IBAction)ViewLicensePlate:(id)sender 
 {
-    self.navigationController.navigationBarHidden=YES;
+   
     viewFullPhoto.hidden=NO;
     PhotoDetail.hidden=YES;
     
     strPhotoName = FILE_LICENSEPLATE;
+    self.navigationController.navigationBarHidden=YES;
     imgPhotoFullView.image = [globals LoadPhotoFromDisk:strPhotoName];
     imgLicensePlate.image = imgPhotoFullView.image;
-    
-	[sv setContentSize:CGSizeMake(1000,1000)];
+    [sv setContentSize:CGSizeMake(1000,1000)];
 
     [self FixScrollView];
     [self ShowFullView];
 
 }
 
-- (IBAction)ViewParkingSpot:(id)sender 
-{   self.navigationController.navigationBarHidden=YES;
+- (IBAction)ViewParkingSpot:(id)sender{
+    
+    self.navigationController.navigationBarHidden=YES;
     viewFullPhoto.hidden=NO;
     PhotoDetail.hidden=YES;
     strPhotoName = FILE_PARKINGSPOT;
     imgPhotoFullView.image = [globals LoadPhotoFromDisk:strPhotoName];
     imgParkingSpot.image = imgPhotoFullView.image;
     
-
     [self FixScrollView];
-    
     [self ShowFullView];
 
 }
+- (IBAction)SaveInsuraceCardClick:(id)sender
+{
+    GlobalStuff *g=[GlobalStuff sharedManager];
+    
+    if(![UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera])
+    {
+        [g ShowMessageBox:@"The camera option is not available on this device!" title:@"Sorry"];
+        return;
+    }
+    
+    strPhotoName = FILE_INSURANCE;
+    UIImagePickerController *picker = [[UIImagePickerController alloc] init];
+    picker.delegate = self;
+    picker.sourceType = UIImagePickerControllerSourceTypeCamera;
+    [self presentViewController:picker animated:YES completion:nil];
+    
+}
+
 
 - (IBAction)SaveLicensePlate:(id)sender
 {
@@ -322,21 +207,94 @@
 
 }
 
--(UIView *) viewForZoomingInScrollView:(UIScrollView *)inScroll 
-{
-    return [self.sv.subviews objectAtIndex:0];
+- (IBAction)SaveDriversLicense:(id)sender {
+    
+    GlobalStuff *g=[GlobalStuff sharedManager];
+    if(![UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera])
+    {
+        [g ShowMessageBox:@"The camera option is not available on this device!" title:@"Sorry"];
+        return;
+    }
+    
+    strPhotoName = FILE_DRIVERSLICENSE;
+    UIImagePickerController *picker = [[UIImagePickerController alloc] init];
+    picker.delegate = self;
+    picker.sourceType = UIImagePickerControllerSourceTypeCamera;
+    [self presentViewController:picker animated:YES completion:nil];
+}
 
+- (IBAction)Backbuttonclicked:(UIBarButtonItem *)sender {
+    
+    if (ifImageView){
+        viewFullPhoto.hidden = YES;
+        PhotoDetail.hidden=NO;
+        ifImageView = NO;
+    }
+    else{
+        //CreateDelegate();
+        [mview viewDidAppear:TRUE];
+        [self dismissViewControllerAnimated:YES completion:nil];
+    }
+}
+
+- (IBAction)CloseFullViewClick:(id)sender {
+    //CreateDelegate();
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:0.5];
+    viewFullPhoto.center = CGPointMake(160, 830);
+    [UIView commitAnimations];
+}
+
+#pragma mark -
+#pragma mark Common Methods
+
+-(void)ShowFullView{
+    
+    ifImageView = YES;
+    //CreateDelegate();
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:0.5];
+    viewFullPhoto.center = CGPointMake(160, 260);
+    //viewFullPhoto.center = CGPointMake(160,230);
+   // viewFullPhoto.frame=CGRectMake(50, 100,300, 500);
+   // viewFullPhoto.frame=CGRectMake(0, 50, 414, 730);
+    //viewFullPhoto.backgroundColor=[UIColor blackColor];
+    //sv.frame = CGRectMake(0, 0, 414, 730);
+    
+    //imgPhotoFullView.frame = CGRectMake(0, 0, 414, 730);
+    //imgPhotoFullView.center = viewFullPhoto.superview.center;
+   // [imgPhotoFullView setContentMode:UIViewContentModeCenter];
+    //imgPhotoFullView.frame=CGRectMake(20, 0,300, 500);
+   // imgPhotoFullView.backgroundColor=[UIColor whiteColor];
+    
+    
+    
+    
+    //[imgPhotoFullView setFrame:CGRectMake(100, 100, 200, 200)];
+    
+  //  UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, 100, 100)];
+   // [imgView setImage:[UIImage imageNamed:"image.png"]];
+    [UIView commitAnimations];
 }
 
 
--(void)FixScrollView
-{
+-(void)FixScrollView{
     [sv setContentSize:CGSizeMake(imgPhotoFullView.frame.size.width,imgPhotoFullView.frame.size.height)];
 	sv.maximumZoomScale = 4.0;
 	sv.minimumZoomScale = 0.75;
 	sv.clipsToBounds = YES;
 	sv.zoomScale = 0.5;    
+}
 
+-(UIView *) viewForZoomingInScrollView:(UIScrollView *)inScroll{
+    return [self.sv.subviews objectAtIndex:0];
+}
+
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)image editingInfo:(NSDictionary *)editingInfo{
+    
+    [globals SavePhotoToDisk:image filename:strPhotoName];
+    [self LoadImages];
+    [picker dismissModalViewControllerAnimated:YES];
 }
 
 @end
