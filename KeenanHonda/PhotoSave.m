@@ -42,7 +42,7 @@
 - (void)viewDidLoad{
     
     [super viewDidLoad];
-    viewFullPhoto.center = CGPointMake(160, 830);
+    //viewFullPhoto.center = CGPointMake(160, 830);
     [self.view bringSubviewToFront:viewFullPhoto];
     [self LoadImages];
     self.viewFullPhoto.hidden=YES;
@@ -254,7 +254,7 @@
     //CreateDelegate();
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:0.5];
-    viewFullPhoto.center = CGPointMake(160, 260);
+    //viewFullPhoto.center = CGPointMake(160, 260);
     //viewFullPhoto.center = CGPointMake(160,230);
    // viewFullPhoto.frame=CGRectMake(50, 100,300, 500);
    // viewFullPhoto.frame=CGRectMake(0, 50, 414, 730);
