@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FirstViewCell.h"
 
 @interface TableController : UIViewController<UITableViewDataSource,UITableViewDelegate,UIAlertViewDelegate>
 

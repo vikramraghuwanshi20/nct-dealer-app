@@ -8,8 +8,12 @@
 
 #import "TableController.h"
 #import "WebViewController.h"
+//#import "FirstViewController.h"
 #import "WebData.h"
-#import "CustomCell.h"
+//#import "CustomCell.h"
+//#import "FirstViewCell.h"
+#import "tablecell.h"
+#import <MMDrawerController.h>
 #import <SDWebImage/UIImageView+WebCache.h>
 
 @interface TableController ()
@@ -23,7 +27,8 @@
 @implementation TableController
 @synthesize finance;
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
      self.automaticallyAdjustsScrollViewInsets=NO;
     webResponse=[[WebData alloc]init];
@@ -39,23 +44,34 @@
 //    [self.tableView insertSubview:transparent atIndex:0];
     
     
+    
+    
+    
+    
+    
+    
+    
     UIImage *barImage=[[UIImage imageNamed:@"navBarFade.png"]resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0) resizingMode:UIImageResizingModeStretch];
     [self.roadSideNavBar setBackgroundImage:barImage forBarMetrics:UIBarMetricsDefault];
     self.roadSideNavBar.shadowImage = [UIImage new];
     self.roadSideNavBar.translucent=YES;
     self.roadSideNavBar.barTintColor=[UIColor clearColor];
     self.view.backgroundColor=[UIColor clearColor];
-    // Do any additional setup after loading the view.
+     //Do any additional setup after loading the view.
 }
 
--(void)viewSetUp{
+-(void)viewSetUp
+{
     NSDictionary *dict=[webResponse getAppData];
     
-    if (!finance) {
+    if (!finance)
+    {
  
         dataDict=[dict objectForKey:@"dealerInfo"];
         _callArray = [@[[dataDict objectForKey:@"dealerServicePhone"]]mutableCopy];
-    }else{
+    }
+    else
+    {
        self.roadSideNavBar.topItem.title = @"Financial Link's";
         _callArray = [dict objectForKey:@"financialLinks"];
         //_callArray = [@[[dataDict objectForKey:@"dealerServicePhone"]]mutableCopy];
@@ -67,56 +83,60 @@
  
       [self.bgImage setImage:[webResponse showBgImage]];
     
-    UIBlurEffect *blur = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
+   // UIBlurEffect *blur = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
     
-    UIVisualEffectView *effectView = [[UIVisualEffectView alloc]initWithEffect:blur];
-    effectView.frame = self.view.frame;
+   // UIVisualEffectView *effectView = [[UIVisualEffectView alloc]initWithEffect:blur];
+   // effectView.frame = self.view.frame;
     
-    [self.bgImage addSubview:effectView];
+  //  [self.bgImage addSubview:effectView];
     
-      [self.tableView insertSubview:_bgImage atIndex:0];
-
-}
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    //  [self.tableView insertSubview:_bgImage atIndex:0];
+    // [self.view setNeedsLayout];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 #pragma mark TableViewDataSourcesDelegate
--(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
     return 1;
 }
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
     return [_callArray count];
+    //return 10;
 }
--(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
 
-    static NSString *cellID=@"tableCell";
+    static NSString *CellIdentifier = @"tabcell";
+    tablecell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil)
+   {
+      cell=[[tablecell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
     
-    CustomCell *cell=[tableView dequeueReusableCellWithIdentifier:cellID forIndexPath:indexPath];
+    NSLog(@"hiiiiiiiiiii");
+    
+   //cell.lblTitle.text = @"Honda";
+   //cell.lblSubTitle.text=[_callArray objectAtIndex:indexPath.row];
+   
     cell.backgroundColor=[UIColor clearColor];
-    cell.backgroundView=nil;
-
-    if (finance) {
+//    cell.backgroundView=nil;
+//
+    if (finance)
+    {
         cell.lblSubTitle.font = [UIFont systemFontOfSize:15];
         cell.lblSubTitle.text = [_callArray[indexPath.row] objectForKey:@"linkTitle"];
         cell.lblTitle.text = @"Honda";
-    }else{
-    cell.lblSubTitle.text = _callArray[indexPath.row];
-    cell.lblTitle.text = @"Honda";
     }
-    
-    [cell.iconImage.layer setCornerRadius:10.0f];
+    else
+    {
+    cell.lblSubTitle.text=[_callArray objectAtIndex:indexPath.row];
+    cell.lblTitle.text = @"Honda";
+    cell.iconImage.image=[UIImage imageNamed:@"hondaOwner.png"];
+    }
+//
+//    [cell.iconImage.layer setCornerRadius:10.0f];
     
     
     return cell;
@@ -142,14 +162,22 @@
 }
 
 
-
--(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath{
+-(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    // Remove seperator inset
+    if ([cell respondsToSelector:@selector(setSeparatorInset:)]) {
+        [cell setSeparatorInset:UIEdgeInsetsZero];
+    }
     
-   [cell setBackgroundColor:[UIColor clearColor]];
-//    cell.backgroundView = [UIView new] ;
-//    cell.backgroundView.alpha=0.7;
-//    cell.selectedBackgroundView = [UIView new];
-    //cell.alpha=0.3;
+    // Prevent the cell from inheriting the Table View's margin settings
+    if ([cell respondsToSelector:@selector(setPreservesSuperviewLayoutMargins:)]) {
+        [cell setPreservesSuperviewLayoutMargins:NO];
+    }
+    
+    // Explictly set your cell's layout margins
+    if ([cell respondsToSelector:@selector(setLayoutMargins:)]) {
+        [cell setLayoutMargins:UIEdgeInsetsZero];
+    }
 }
 
 #pragma mark AlertView Delegate
@@ -175,6 +203,8 @@
 
 - (IBAction)tapCancel:(id)sender
 {
-    [self dismissViewControllerAnimated:YES completion:nil];
+    MMDrawerController*first=[self.storyboard instantiateViewControllerWithIdentifier:@"Drawer"];
+    [self presentViewController:first animated:NO completion:nil];
+    
 }
 @end

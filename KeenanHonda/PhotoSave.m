@@ -24,11 +24,6 @@
 @synthesize viewFullPhoto;
 @synthesize imgPhoto,strPhotoName,mview,PhotoDetail;
 
-
-
-#pragma mark
-#pragma mark - View lifecycle
-
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
     
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -46,6 +41,27 @@
     [self.view bringSubviewToFront:viewFullPhoto];
     [self LoadImages];
     self.viewFullPhoto.hidden=YES;
+    //NSLog(@"ios version=%@",[[UIDevice currentDevice] systemVersion]);
+    //NSLog(@"ios device=%@",[UIDevice currentDevice].model);
+    //NSLog(@"ios device name=%@",[[UIDevice currentDevice]name]);
+    // NSLog(@"ios device screen=%@", [[UIScreen mainScreen] bounds]);
+//    if([[UIDevice currentDevice]userInterfaceIdiom]==UIUserInterfaceIdiomPhone)
+//    {
+//        
+//    }
+//    if( IS_IPHONE_4 )
+//    {
+//        
+//    }
+//    else if (IS_IPHONE_5)
+//    {
+//        
+//    }
+    //CGRect screenRect = [[UIScreen mainScreen] bounds];
+    // CGFloat screenWidth = screenRect.size.width;
+    //CGFloat screenHeight = screenRect.size.height;
+    //NSLog(@"width=%f",[[UIScreen mainScreen] bounds].size.height);
+    //NSLog(@"height=%f",[[UIScreen mainScreen] bounds].size.width);
 }
 
 - (void)viewDidUnload{
@@ -68,6 +84,12 @@
     sv.minimumZoomScale = 0.75;
     sv.clipsToBounds = YES;
     sv.zoomScale = 0.5;
+    
+    
+    
+    
+    
+    NSLog(@"ios version=%@",[[UIDevice currentDevice] systemVersion]);
 }
 
 
@@ -119,9 +141,9 @@
     [self ShowFullView];
 }
 
-- (IBAction)ViewLicensePlate:(id)sender 
+- (IBAction)ViewLicensePlate:(id)sender
 {
-   
+    
     viewFullPhoto.hidden=NO;
     PhotoDetail.hidden=YES;
     
@@ -130,10 +152,10 @@
     imgPhotoFullView.image = [globals LoadPhotoFromDisk:strPhotoName];
     imgLicensePlate.image = imgPhotoFullView.image;
     [sv setContentSize:CGSizeMake(1000,1000)];
-
+    
     [self FixScrollView];
     [self ShowFullView];
-
+    
 }
 
 - (IBAction)ViewParkingSpot:(id)sender{
@@ -147,7 +169,7 @@
     
     [self FixScrollView];
     [self ShowFullView];
-
+    
 }
 - (IBAction)SaveInsuraceCardClick:(id)sender
 {
@@ -175,20 +197,20 @@
     if(![UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera])
     {
         [g ShowMessageBox:@"The camera option is not available on this device!" title:@"Sorry"];
-
+        
         return;
     }
     
     strPhotoName = FILE_LICENSEPLATE;
     UIImagePickerController *picker = [[UIImagePickerController alloc] init];
-	picker.delegate = self;
+    picker.delegate = self;
     picker.sourceType = UIImagePickerControllerSourceTypeCamera;
     [self presentViewController:picker animated:YES completion:nil];
-
-
+    
+    
 }
 
-- (IBAction)SaveParkingSpot:(id)sender 
+- (IBAction)SaveParkingSpot:(id)sender
 {
     GlobalStuff *g=[GlobalStuff sharedManager];
     
@@ -200,11 +222,11 @@
     
     strPhotoName = FILE_PARKINGSPOT;
     UIImagePickerController *picker = [[UIImagePickerController alloc] init];
-	picker.delegate = self;
+    picker.delegate = self;
     picker.sourceType = UIImagePickerControllerSourceTypeCamera;
-	[self presentViewController:picker animated:YES completion:nil];
-
-
+    [self presentViewController:picker animated:YES completion:nil];
+    
+    
 }
 
 - (IBAction)SaveDriversLicense:(id)sender {
@@ -256,34 +278,34 @@
     [UIView setAnimationDuration:0.5];
     //viewFullPhoto.center = CGPointMake(160, 260);
     //viewFullPhoto.center = CGPointMake(160,230);
-   // viewFullPhoto.frame=CGRectMake(50, 100,300, 500);
-   // viewFullPhoto.frame=CGRectMake(0, 50, 414, 730);
+    // viewFullPhoto.frame=CGRectMake(50, 100,300, 500);
+    // viewFullPhoto.frame=CGRectMake(0, 50, 414, 730);
     //viewFullPhoto.backgroundColor=[UIColor blackColor];
     //sv.frame = CGRectMake(0, 0, 414, 730);
     
     //imgPhotoFullView.frame = CGRectMake(0, 0, 414, 730);
     //imgPhotoFullView.center = viewFullPhoto.superview.center;
-   // [imgPhotoFullView setContentMode:UIViewContentModeCenter];
+    // [imgPhotoFullView setContentMode:UIViewContentModeCenter];
     //imgPhotoFullView.frame=CGRectMake(20, 0,300, 500);
-   // imgPhotoFullView.backgroundColor=[UIColor whiteColor];
+    // imgPhotoFullView.backgroundColor=[UIColor whiteColor];
     
     
     
     
     //[imgPhotoFullView setFrame:CGRectMake(100, 100, 200, 200)];
     
-  //  UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, 100, 100)];
-   // [imgView setImage:[UIImage imageNamed:"image.png"]];
+    //  UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, 100, 100)];
+    // [imgView setImage:[UIImage imageNamed:"image.png"]];
     [UIView commitAnimations];
 }
 
 
 -(void)FixScrollView{
     [sv setContentSize:CGSizeMake(imgPhotoFullView.frame.size.width,imgPhotoFullView.frame.size.height)];
-	sv.maximumZoomScale = 4.0;
-	sv.minimumZoomScale = 0.75;
-	sv.clipsToBounds = YES;
-	sv.zoomScale = 0.5;    
+    sv.maximumZoomScale = 4.0;
+    sv.minimumZoomScale = 0.75;
+    sv.clipsToBounds = YES;
+    sv.zoomScale = 0.5;
 }
 
 -(UIView *) viewForZoomingInScrollView:(UIScrollView *)inScroll{
@@ -296,5 +318,4 @@
     [self LoadImages];
     [picker dismissModalViewControllerAnimated:YES];
 }
-
 @end

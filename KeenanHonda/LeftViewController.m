@@ -267,10 +267,12 @@
   
     return label;
 }
-- (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+- (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
     NSMutableString *strUrl;
    
-    if (indexPath.section == 0 || indexPath.section== 3 || indexPath.section== 4 ) {
+    if (indexPath.section == 0 || indexPath.section== 3 || indexPath.section== 4 )
+    {
     
     NSInteger index = indexPath.row;
     NSString *strUrls;
@@ -403,7 +405,8 @@
                         UIAlertView *mapAlert=[[UIAlertView alloc]initWithTitle:@"Get Directions" message:@"This will open your Map application, are you sure want to exit?" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
                         [mapAlert setTag:101];
                         [mapAlert show];
-                    }else{
+                    }else
+                    {
                         UIAlertView *mapAlert=[[UIAlertView alloc]initWithTitle:@"Send Feedback to:" message:departmentMail delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
                         [mapAlert setTag:102];
                         [mapAlert show];
@@ -568,7 +571,8 @@
     
     NSString *dealerAddress = [NSString stringWithFormat:@"%@ %@ %@ %@",[dealerinfo objectForKey:@"dealerStreet"],[dealerinfo objectForKey:@"dealerCity"],[dealerinfo objectForKey:@"dealerState"],[dealerinfo objectForKey:@"dealerZip"]];
     
-    if (alertView.tag==101 && buttonIndex==1) {
+    if (alertView.tag==101 && buttonIndex==1)
+    {
         
         NSString *urlString =[NSString stringWithFormat:@"https://maps.apple.com/?daddr=%@&saddr=%@,%@",[dealerAddress stringByReplacingOccurrencesOfString:@" " withString:@"+"],app.latitude,app.longitude];
         
@@ -580,7 +584,8 @@
 
         }
     }
-    else if (alertView.tag==102 && buttonIndex==1){
+    else if (alertView.tag==102 && buttonIndex==1)
+    {
         [self sendMailTo:departmentMail];
     }
     else{

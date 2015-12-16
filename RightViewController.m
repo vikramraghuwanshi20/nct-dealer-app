@@ -244,7 +244,8 @@
         case 0:
         {
     WebControllerViewController *webController=[storyBoard instantiateViewControllerWithIdentifier:@"webContent"];
-      if (row==0) {
+      if (row==0)
+      {
         NSString *callStr=[NSString stringWithFormat:@"Would You Like To Call %@",phoneNumber];
         
         UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Call" message:callStr delegate:self cancelButtonTitle:@"No,Thanks" otherButtonTitles:@"OK", nil];
@@ -442,17 +443,20 @@ viewForHeaderInSection:(NSInteger)section {
 
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
     
-    if (alertView.tag==101 && buttonIndex==1) {
+    if (alertView.tag==101 && buttonIndex==1)
+    {
 
         NSString *urlString =[NSString stringWithFormat:@"http://maps.apple.com/?daddr=%@&saddr=%@,%@",[dealerAddress stringByReplacingOccurrencesOfString:@" " withString:@"+"],app.latitude,app.longitude];
 
         NSLog(@"urlstr %@",urlString);
         [[UIApplication sharedApplication] openURL: [NSURL URLWithString: urlString]];
     }
-    else if (alertView.tag==102 && buttonIndex==1){
+    else if (alertView.tag==102 && buttonIndex==1)
+    {
         [self sendMailTo:departmentMail];
     }
-    else{
+    else
+    {
     if (buttonIndex==1) {
   // NSString *phoneNumber=[[dataDict objectForKey:@"dealerInfo"] objectForKey:@"dealerMainPhone"];
     

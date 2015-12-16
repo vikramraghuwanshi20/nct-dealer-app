@@ -52,11 +52,11 @@ static GlobalStuff *sharedGlobalStuff = nil;
 }
 
 
-//-(void)ClearBarcode
-//{
-//    self.sBarcode = nil;
-//    
-//}
+-(void)ClearBarcode
+{
+    self.sBarcode = nil;
+    
+}
 
 -(void)SaveSettings
 {

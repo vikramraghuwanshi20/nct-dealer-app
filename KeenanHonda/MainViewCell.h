@@ -9,6 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface MainViewCell : UICollectionViewCell
-@property(strong,nonatomic)IBOutlet UIImageView *imgIcon;
-@property(strong,nonatomic)IBOutlet UILabel *lblIconTitle;
+//@property(strong,nonatomic)IBOutlet UIImageView *imgIcon;
+//@property(strong,nonatomic)IBOutlet UILabel *lblIconTitle;
+
+
+
+@property(nonatomic,strong)IBOutlet UIImageView *iconImage;
+@property(nonatomic,strong)IBOutlet UILabel *lblTitle;
+@property(nonatomic,strong)IBOutlet UILabel *lblSubTitle;
+
 @end

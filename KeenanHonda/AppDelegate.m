@@ -29,30 +29,21 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-   // This sets the Background  color of the status bar
-    UIView *view=[[UIView alloc] initWithFrame:CGRectMake(0, 0,[UIScreen mainScreen].bounds.size.width, 20)];
-    view.backgroundColor=[UIColor blackColor];
-    [self.window.rootViewController.view addSubview:view];
-    
-    // This sets the text color of the status bar
+   
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
-    
-    
     // This sets the text color of the navigation links
-    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    
+   [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     
     // This sets the title color of the navigation bar
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
- 
-    // This sets the Background color of the navigation bar
-    [[UINavigationBar appearance] setBackgroundColor:[UIColor blackColor]];
+
     
     GlobalStuff *g = [GlobalStuff sharedManager];
-    //g.dd.nDealerNumber = 0;
-    //[g.dd LoadDealerInfo];
+//    g.dd.nDealerNumber = 0;
+//    [g.dd LoadDealerInfo];
     
     self.currentCustomer = [[oRewards alloc] init];
     [self.currentCustomer LoadInfo];
